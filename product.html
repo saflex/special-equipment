@@ -1,0 +1,1333 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
+  <title>html</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--[if IE]>
+  <script src="js/html5.js"></script>
+  <![endif]-->
+
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" type="text/css" href="plugins/SlickSlider/slick/slick.css"/>
+
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- Slider Kit styles -->
+  <link rel="stylesheet" type="text/css" href="lib/css/sliderkit-core.css" media="screen, projection" />
+  <link rel="stylesheet" type="text/css" href="lib/css/sliderkit-demos.css" media="screen, projection" />
+
+  <link rel="stylesheet" href="plugins/Swiper/dist/css/swiper.min.css">
+
+  <link href="plugins/formstyler/jquery.formstyler.css" rel="stylesheet" />
+
+  <!-- JQui -->
+  <link href="plugins/JQui/jquery-ui.css" rel="stylesheet" />
+
+  <!-- JQui -->
+
+  <!-- Fotorama -->
+  <link href="plugins/fotorama/fotorama.css" rel="stylesheet">
+
+  <!-- document stylesheet files -->
+  <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+  <link rel="stylesheet" href="plugins/formstyler/jquery.formstyler.css" />
+
+  <link href="css/style.css" rel="stylesheet" media="screen">
+  <!--[if gte IE 9]>
+  <link rel="stylesheet" href="css/ie9.css" media="screen, projection">
+  <![endif]-->
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="css/ie8.css" media="screen, projection">
+  <![endif]-->
+  <!--[if lte IE 7]>
+  <link rel="stylesheet" href="css/ie7.css" media="screen, projection">
+  <![endif]-->
+
+  <!-- FONT  -->
+
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+  <!-- FONT -->
+
+  <script src="js/jquery-1.10.2.min.js"></script>
+
+  <script src="plugins/formstyler/jquery.formstyler.js"></script>
+  <script src="plugins/fancybox/jquery.fancybox.js"></script>
+  <script src="plugins/inview/jquery.inview.min.js"></script>
+  <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+  <!-- modals -->
+  <script src="js/bootstrap.js"></script>
+  <script src="plugins/SlickSlider/slick/slick.js"></script>
+  <script src="plugins/JQui/jquery-ui.js"></script>
+  <script src="plugins/formstyler/jquery.formstyler.js"></script>
+  <script src="plugins/Swiper/dist/js/swiper.jquery.min.js"></script>
+  <script src="plugins/bxslider/jquery.bxslider.js"></script>
+  <link rel="stylesheet" href="plugins/CustomScrollbarr/jquery.mCustomScrollbar.css" />
+
+  <script src="plugins/CustomScrollbarr/jquery.mCustomScrollbar.js"></script>
+  <script src="plugins/fotorama/fotorama.js"></script>
+  <script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
+</head>
+<body>
+
+  <div class="topheader">
+    <div class="container">
+       <ul class="language-select">
+        <li class="active" data-lang="ua"><a>Москва</a></li>
+        <li data-lang="ru"><a>Санкт-Петербург</a></li>
+        <li data-lang="en"><a>Волгоград</a></li>
+      </ul>
+
+      <a class="enter" href="#" data-toggle="modal" data-target="#autoriz">Вход и регитстрация</a>
+
+      <ul class="flr ntlmen">
+        <li>
+          <a href="contacts.html">Контакты</a>
+        </li>
+        <li>
+          <a href="сooperation.html">Сотрудничество</a>
+        </li>
+        <li>
+          <a href="news.html">Новости</a>
+        </li>
+        <li>
+          <a href="about.html">О нас</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+
+  <div class="centerheader">
+    <div class="container">
+      <a href="#"><div class="logo-area fll"></div></a>
+      <div class="phone-area fll">
+        <div class="tels">8 (495) 649-67-38</div>
+        <div class="tels">8 (929) 649-62-38</div>
+        <div class="obr-btn"  data-toggle="modal" data-target="#pricel">Обратный звонок</div>
+      </div>
+
+      <div class="map-bay">
+        <a href="">Где купить</a>
+      </div>
+
+      <div class="socials fll">
+        <a href="#" class="soc1"></a>
+        <a href="#" class="soc2"></a>
+        <a href="#" class="soc3"></a>
+        <a href="#" class="soc4"></a>
+        <a href="#" class="soc5"></a>
+      </div>
+
+      <div class="input-search fll">
+        <input type="search" placeholder="Поиск">
+        <button class="srchr"></button>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="navbar navbar-inverse">
+    <div class="container">
+      <div class="logo-ng"></div>
+      <div class="navbar-header">
+        <a class="enter hidden-lg hidden-md hidden-sm" href="#" data-toggle="modal" data-target="#autoriz">Вход и регитстрация</a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+          <span class="sr-only">Открыть</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="responsive-menu">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a class="nts1" href="#">Одежда</a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="#">Пункт 1</a>
+              </li>
+              <li>
+                <a href="#">Пункт 2</a>
+              </li>
+              <li>
+                <a href="#">Пункт 3</a>
+              </li>
+              <li>
+                <a href="#">Пункт 4</a>
+              </li>
+            </ul>
+          </li>
+
+        </li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle nts2" data-toggle="dropdown">Снаряжение</a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="#">Пункт 1</a>
+            </li>
+            <li>
+              <a href="#">Пункт 2</a>
+            </li>
+            <li>
+              <a href="#">Пункт 3</a>
+            </li>
+            <li>
+              <a href="#">Пункт 4</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a class="nts3" href="#">Жилеты</a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="#">Пункт 1</a>
+            </li>
+            <li>
+              <a href="#">Пункт 2</a>
+            </li>
+            <li>
+              <a href="#">Пункт 3</a>
+            </li>
+            <li>
+              <a href="#">Пункт 4</a>
+            </li>
+          </ul>
+        </li>
+
+      </li>
+      <li class="dropdown">
+        <a class="nts4" href="#">Рюкзаки</a>
+        <ul class="dropdown-menu">
+          <li>
+            <a href="#">Пункт 1</a>
+          </li>
+          <li>
+            <a href="#">Пункт 2</a>
+          </li>
+          <li>
+            <a href="#">Пункт 3</a>
+          </li>
+          <li>
+            <a href="#">Пункт 4</a>
+          </li>
+        </ul>
+      </li>
+
+    </li>
+    <li class="dropdown">
+      <a class="nts5" href="#">Обувь</a>
+      <ul class="dropdown-menu">
+        <li>
+          <a href="#">Пункт 1</a>
+        </li>
+        <li>
+          <a href="#">Пункт 2</a>
+        </li>
+        <li>
+          <a href="#">Пункт 3</a>
+        </li>
+        <li>
+          <a href="#">Пункт 4</a>
+        </li>
+      </ul>
+    </li>
+
+  </li>
+  <li class="dropdown">
+    <a class="nts6" href="#">Аксессуары</a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="#">Пункт 1</a>
+      </li>
+      <li>
+        <a href="#">Пункт 2</a>
+      </li>
+      <li>
+        <a href="#">Пункт 3</a>
+      </li>
+      <li>
+        <a href="#">Пункт 4</a>
+      </li>
+    </ul>
+  </li>
+
+</li>
+</ul>
+
+<div class="bask-area flr">
+<div class="nts8 flr">
+  <a href="">1</a>
+</div>
+<div class="nts7 flr">
+  <a href="">5</a>
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="clearfix"></div>
+
+<div class="content">
+<div class="container">
+	
+	  <div id="breadcrumb" class="row breadcrumb hdfs2">
+    <div class="" itemprop="breadcrumb">
+      <a class="homepage-link" href="index.html">Главная</a> <b>/</b>
+      <a class="homepage-link" href="#">Каталог</a> <b>/</b>
+      <a class="homepage-link" href="#">Одежда</a>
+           <b>/</b>
+      <span class="page-title">Маскировочная</span>
+
+    </div>
+  </div>
+
+  <div class="row">
+    <h1 class="page-h1 hdfs2">
+      Футболка для ношения 
+под бронежилет
+    </h1>
+    
+  </div>
+	
+<div id="breadcrumb" class="row breadcrumb">
+<div class="" itemprop="breadcrumb">
+<a class="homepage-link" href="index.html">&larr; Назад к списку товаров</a>
+</div>
+</div>
+
+<div class="row">
+
+<div class="col-lg-6 col-md-6 col-sm-6 dfrew">
+
+<div class="row">
+  <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+    <div class="slider slider-nav">
+      <div>
+        <div class="slt-slg video-before"  data-toggle="modal" data-target="#video-modal">
+          <img   src="img/t1.png" alt=""></div>
+      </div>
+      <div>
+        <div class="slt-slg">
+          <img src="img/t2.png" alt=""></div>
+      </div>
+      <div>
+        <div class="slt-slg">
+          <img src="img/t1.png" alt=""></div>
+      </div>
+      <div>
+        <div class="slt-slg">
+          <img src="img/t2.png" alt=""></div>
+      </div>
+
+      <div>
+        <div class="slt-slg">
+          <img src="img/t1.png" alt=""></div>
+      </div>
+      <div>
+        <div class="slt-slg">
+          <img src="img/t2.png" alt=""></div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-9 col-md-9">
+    <div class="slider slider-for">
+      <div>
+        <div class="slt-sl">
+          <div class="new-s">New</div>
+          <img data-toggle="modal" data-target="#img-pr" src="img/img-pr.png" alt="">
+          <div data-toggle="modal" data-target="#img-pr" class="zoom-s"></div>
+        </div>
+      </div>
+      <div>
+        <div class="slt-sl">
+          <div class="new-s">New</div>
+          <img data-toggle="modal" data-target="#img-pr2" src="img/img-pr2.png" alt="">
+          <div data-toggle="modal" data-target="#img-pr2" class="zoom-s"></div>
+        </div>
+      </div>
+      <div>
+        <div class="slt-sl">
+          <div class="new-s">New</div>
+          <img data-toggle="modal" data-target="#img-pr" src="img/img-pr.png" alt="">
+          <div data-toggle="modal" data-target="#img-pr" class="zoom-s"></div>
+        </div>
+      </div>
+      <div>
+        <div class="slt-sl">
+          <div class="new-s">New</div>
+          <img data-toggle="modal" data-target="#img-pr2" src="img/img-pr2.png" alt="">
+          <div data-toggle="modal" data-target="#img-pr2" class="zoom-s"></div>
+        </div>
+      </div>
+      <div>
+        <div class="slt-sl">
+          <div class="new-s">New</div>
+          <img data-toggle="modal" data-target="#img-pr" src="img/img-pr.png" alt="">
+          <div data-toggle="modal" data-target="#img-pr" class="zoom-s"></div>
+        </div>
+      </div>
+      <div>
+        <div class="slt-sl">
+          <div class="new-s">New</div>
+          <img data-toggle="modal" data-target="#img-pr2" src="img/img-pr2.png" alt="">
+          <div data-toggle="modal" data-target="#img-pr2" class="zoom-s"></div>
+        </div>
+      </div>
+    </div>
+    
+    
+   <div class="col-lg-3 col-md-3 hidden-md hidden-lg hidden-sm hidden-xs">
+    <div class="slider slider-nav">
+      <div>
+        <div class="slt-slg">
+          <img src="img/t1.png" alt=""></div>
+      </div>
+      <div>
+        <div class="slt-slg">
+          <img src="img/t2.png" alt=""></div>
+      </div>
+      <div>
+        <div class="slt-slg">
+          <img src="img/t1.png" alt=""></div>
+      </div>
+      <div>
+        <div class="slt-slg">
+          <img src="img/t2.png" alt=""></div>
+      </div>
+
+      <div>
+        <div class="slt-slg">
+          <img src="img/t1.png" alt=""></div>
+      </div>
+      <div>
+        <div class="slt-slg">
+          <img src="img/t2.png" alt=""></div>
+      </div>
+    </div>
+  </div>
+    
+  </div>
+</div>
+</div>
+<div class="col-md-6 col-lg-6 col-sm-6 dfrew">
+
+<div class="paddis-sw">
+  <div id="breadcrumb" class="row breadcrumb hdfs">
+    <div class="" itemprop="breadcrumb">
+      <a class="homepage-link" href="index.html">Главная</a> <b>/</b>
+      <a class="homepage-link" href="#">Каталог</a> <b>/</b>
+      <a class="homepage-link" href="#">Одежда</a>
+           <b>/</b>
+      <span class="page-title">Маскировочная</span>
+
+    </div>
+  </div>
+
+  <div class="row">
+    <h1 class="page-h1 hdfs">
+      Футболка для ношения 
+под бронежилет
+    </h1>
+
+    <div class="clearfix">
+      <div class="col-md-7">
+        <div class="stars fll">
+          <div class="str-full"></div>
+          <div class="str-full"></div>
+          <div class="str-full"></div>
+          <div class="str-half"></div>
+          <div class="str-none"></div>
+        </div>
+        <div class="fll a-otsz">
+          <a href="">по 30 отзывам</a>
+        </div>
+
+        <div class="clearfix">
+          <p class="clbg2">Цвет</p>
+          <div class="slider multiple-colors">
+            <div>
+              <div class="str-im">
+                <img src="img/clfs.png" alt="">
+                <p>Flectar-D</p>
+                </div>
+            </div>
+            <div>
+              <div class="str-im">
+                <img src="img/clfs.png" alt="">
+                <p>DPM68</p>
+                </div>
+            </div>
+            <div>
+              <div class="str-im">
+                <img src="img/clfs.png" alt="">
+                <p>Multicam</p>
+                </div>
+            </div>
+            <div>
+              <div class="str-im">
+                <img src="img/clfs.png" alt="">
+                <p>Flectar-D</p>
+                </div>
+            </div>
+            <div>
+              <div class="str-im">
+                <img src="img/clfs.png" alt="">
+                <p>Flectar-D</p>
+                </div>
+            </div>
+            <div>
+              <div class="str-im">
+                <img src="img/clfs.png" alt="">
+                <p>Flectar-D</p>
+                </div>
+            </div>
+            <div>
+              <div class="str-im">
+                <img src="img/clfs.png" alt="">
+                <p>Flectar-D</p>
+                </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-md-5 col-sm-6 col-xs-6 no-p-r">
+            <label for="">Размер</label>
+            <select name="" id="">
+              <option value="">46</option>
+              <option value="">48</option>
+            </select>
+          </div>
+          <div class="col-md-5 col-sm-6 col-xs-6 no-p-r">
+            <label for="">Рост</label>
+            <select name="" id="">
+              <option value="">176</option>
+              <option value="">178</option>
+            </select>
+            <div class="dfgh" title="Всплывающая подсказка"></div>
+          </div>
+        </div>
+   <!-- new block -->     
+        <div class="row">
+	        <div class="col-md-12 col-sm-12 col-xs-12">
+		        <a class="nblk" data-toggle="modal" data-target="#img-modal-new" href="#">Как выбрать размер?</a>
+	        </div>
+        </div>
+        
+        <style>
+	        a.nblk {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+}
+        </style>
+        
+        <div class="modal fade" id="img-modal-new" aria-hidden="false">
+<div class="modal-dialog sert-modal">
+<div class="modal-content">
+
+<div class="modal-body">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+<img src="img/im.jpg" alt=""></div>
+</div>
+</div>
+</div>
+
+ <!-- new block -->   
+      </div>
+      <div class="col-md-5">
+        <p class="article"> <strong>Артикул:</strong>
+          178789785675
+        </p>
+        <div class="clearfix">
+          <p class="clbg">Ткань</p>
+          <div class="cfgh">Авизент</div>
+        </div>
+        <div class="recomends">
+          <label for="">Рекомендации по уходу</label>
+          <div class="rec-l-area">
+	          <div class="dfgh ast1" title="Описание 1"></div>
+	          <div class="dfgh ast2" title="Описание 2"></div>
+	          <div class="dfgh ast3" title="Описание 3"></div>
+	          <div class="dfgh ast4" title="Описание 4"></div>
+	          <div class="dfgh ast5" title="Описание 5"></div>
+          </div>
+          </div>
+      </div>
+      <div class="col-md-12">
+        <div class="paddst">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="xsp">
+                6 000 руб.
+                <span>8 000 руб.</span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="btn-b">
+                <button class="button orange">Купить</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="bs-one-cl fll" data-toggle="modal" data-target="#click-modal">Купить в один клик</a>
+        <a href="#" class="bs-one-cl2 fll">Отложить товар</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="row">
+
+<div class="col-lg-6 col-md-6">
+<h4 class="clds-r">С этим товаром покупают</h4>
+
+<div class="row clgh">
+  <div class="col-md-6">
+    <a href="">
+      <img class="fll" src="img/sms.png" alt=""></a>
+    <div class="fll rtui">
+      <a href="#">Ремень "РС-35"</a>
+      <div class="stars fll">
+        <div class="str-full"></div>
+        <div class="str-full"></div>
+        <div class="str-full"></div>
+        <div class="str-half"></div>
+        <div class="str-none"></div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="fght">750 руб.</div>
+    <button class="button orange">В корзину</button>
+  </div>
+
+  <div class="col-md-12">
+    <div class="clearfix"></div>
+
+    <hr></div>
+
+</div>
+
+<div class="row clgh">
+  <div class="col-md-6">
+    <a href="">
+      <img class="fll" src="img/sms.png" alt=""></a>
+    <div class="fll rtui">
+      <a href="#">Куртка демисезонная "СМОГ"</a>
+      <div class="stars fll">
+        <div class="str-full"></div>
+        <div class="str-full"></div>
+        <div class="str-full"></div>
+        <div class="str-half"></div>
+        <div class="str-none"></div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="fght">4 600 руб.</div>
+    <button class="button orange">В корзину</button>
+  </div>
+
+  <div class="col-md-12">
+    <div class="clearfix"></div>
+
+    <hr></div>
+
+</div>
+
+<div class="row clgh">
+  <div class="col-md-6">
+    <a href="">
+      <img class="fll" src="img/sms.png" alt=""></a>
+    <div class="fll rtui">
+      <a href="#">Рюкзак патрульный (35л) "Трехдневный" / "Адлер"</a>
+      <div class="stars fll">
+        <div class="str-full"></div>
+        <div class="str-full"></div>
+        <div class="str-full"></div>
+        <div class="str-half"></div>
+        <div class="str-none"></div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="fght">3 150 руб.</div>
+    <button class="button orange">В корзину</button>
+  </div>
+
+  <div class="col-md-12">
+    <div class="clearfix"></div>
+
+    <hr></div>
+
+</div>
+
+</div>
+<div class="col-lg-6 col-md-6">
+
+<ul class="nav nav-tabs" id="myTab">
+  <li class="active">
+    <a data-target="#home" data-toggle="tab">Описание</a>
+  </li>
+  <li>
+    <a data-target="#profile" data-toggle="tab">Оплата</a>
+  </li>
+  <li>
+    <a data-target="#messages" data-toggle="tab">Доставка</a>
+  </li>
+  <li>
+    <a data-target="#settings" data-toggle="tab">Отзывы (30)</a>
+  </li>
+</ul>
+
+<div class="tab-content rts-t">
+  <div class="tab-pane active" id="home">
+    <h4>О товаре</h4>
+    <p>
+      Довольно комфортная футболка, круглый вырез, сидит довольно хорошо, сидит в обтяжку, что обеспечивает адекватное и удобное ношение под бронежилетом.
+    </p>
+    <p>
+      Поскольку я бронежилет ношу не слишком часто, футболка использовалась в качестве простой повседневной одежды, изредка одевалась на полевые выходы под разгрузку, когда было потеплее. Также она использовалась при работе по хозяйству (дров нарубить, воды поднести и т.п.), ну и при редких занятиях спортом она тоже отлично себя показала.
+    </p>
+    <p>
+      Благодаря материалу (о котором поговорю позже) футболка отлично отводит влагу,отлично проветривается и высыхает заметно быстрее обычных контрактных хлопковых футболок, и чуточку быстрее моих наиболее часто используемых британских контрактных T-Shirt Combat Antistatic Brown из ткани Coolmax.
+    </p>
+  </div>
+  <div class="tab-pane" id="profile">
+	   <h4>Оплата</h4>
+	   <p>Продукция может быть изготовлена персонально для вас, поэтому мы работаем со 100% предоплатой. Внести её можно любым удобным способом - от банковской карты до систем онлайн-банкинга.</p>
+	   <img class="clk-sd img-responsive" src="img/nh.png">
+  </div>
+  <div class="tab-pane" id="messages"> 
+	  <h4>Доставка</h4>
+	   <p>Курьер из службы EMS доставит ваш заказ в течение 1 — 3 дней (точные сроки зависят от конкретного региона). Мы ценим спокойствие наших клиентов, поэтому все заказы застрахованы страховой компанией. Это надежный партнёр с хорошей репутацией, специализирующийся на страховании  почтовых отправлений по Российской Федерации и ближайшему зарубежью.</p></div>
+  <div class="tab-pane" id="settings">
+	  <h4>Отзывы</h4>
+	  <div class="revs-blk">
+	  <p><strong>Шиганов Алексей</strong><span class="iv1"></span><span>21.01.2016 в 18:31</span></p> 
+	  <p>Подобные футболки сейчас производят великое множество компаний, как для контрактного армейского использования, так и для открытого рынка.</p>
+	  
+	  <div class="stars fll">
+          <div class="str-full"></div>
+          <div class="str-full"></div>
+          <div class="str-full"></div>
+          <div class="str-half"></div>
+          <div class="str-none"></div>
+        </div>
+        
+        <div class="clearfix"></div>
+	  
+	  <hr>
+	  </div>  
+	  
+	  
+	    <div class="revs-blk">
+	  <p><strong>Иванов Петр</strong><span class="iv2"></span><span>21.01.2016 в 18:31</span></p> 
+	  <p>Поскольку я бронежилет ношу не слишком часто, футболка использовалась в качестве простой повседневной одежды, изредка одевалась на полевые выходы под разгрузку, когда было потеплее.
+</p>
+	  
+	  <div class="stars fll">
+          <div class="str-full"></div>
+          <div class="str-full"></div>
+         
+          <div class="str-half"></div>
+             <div class="str-none"></div>
+          <div class="str-none"></div>
+        </div>
+        
+        <div class="clearfix"></div>
+	  
+	  <hr>
+	  </div>  
+	  
+	  
+	  
+	    <div class="revs-blk">
+	  <p><strong>Андреев Василий</strong><span>21.01.2016 в 18:31</span></p> 
+	  <p>Также она использовалась при работе по хозяйству (дров нарубить, воды поднести и т.п.), ну и при редких занятиях спортом она тоже отлично себя показала.</p>
+	  
+	  <div class="stars fll">
+          <div class="str-full"></div>
+          <div class="str-full"></div>
+          <div class="str-full"></div>
+		  <div class="str-full"></div>
+          <div class="str-full"></div>
+        </div>
+        
+        <div class="clearfix"></div>
+	  
+	  <hr>
+	  </div>  
+	  
+	  
+	  
+	  
+	  
+	  
+	  <nav class="fll">
+  <ul class="pagination">
+    <li>
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">«</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">1</a>
+    </li>
+    <li>
+      <a href="#">2</a>
+    </li>
+    <li>
+      <a href="#">3</a>
+    </li>
+    <li>
+      <a href="#">4</a>
+    </li>
+    <li>
+      <a href="#">5</a>
+    </li>
+    <li>
+      <a href="#">...</a>
+    </li>
+    <li>
+      <a href="#">15</a>
+    </li>
+    <li>
+      <a href="#" aria-label="Next">
+        <span aria-hidden="true">»</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+
+<div class="bts-f fll bts-f-ss">
+        <button class="button">Все отзывы</button>
+      </div>
+	  
+	  
+	  
+	  <div class="clearfix nt-blk nbtr">
+		  
+
+    <div class="row padd-fl">
+	     <div class="col-md-12 fghr">
+	    <h4>Написать отзыв</h4>
+	    
+	    <div class="otz-ts fll">Войдите под своим аккаунтом соцсети</div>
+	    <div class="socials fll">
+<a href="#" class="soc1"></a>
+<a href="#" class="soc2"></a>
+<a href="#" class="soc3"></a>
+<a href="#" class="soc4"></a>
+<a href="#" class="soc5"></a>
+<a href="#" class="soc6"></a>
+</div>
+
+  <div class="clearfix"></div>
+	    
+	   <hr></div>
+	    
+	    
+	  
+      <div class="col-md-3 col-sm-4 col-sm-3">
+        <div class="cols-hg-form">Имя</div>
+      </div>
+      <div class="col-md-9 col-sm-9 col-xs-9">
+        <input type="text"></div>
+    </div>
+
+    <div class="row padd-fl">
+      <div class="col-md-3 col-sm-4 col-sm-3">
+        <div class="cols-hg-form">E-mail</div>
+      </div>
+      <div class="col-md-9 col-sm-9 col-xs-9">
+        <input type="text"></div>
+    </div>
+
+    <div class="row padd-fl">
+      <div class="col-md-3 col-sm-4 col-sm-3">
+        <div class="cols-hg-form">Текст отзывы</div>
+      </div>
+      <div class="col-md-9 col-sm-9 col-xs-9">
+       
+       <textarea placeholder=""></textarea>
+       </div>
+    </div>
+
+	
+	
+	<div class="row padd-fl">
+      <div class="col-md-3 col-sm-4 col-sm-3">
+        <div class="cols-hg-form tyty">Оценка товара</div>
+      </div>
+      <div class="col-md-9 col-sm-9 col-xs-9">
+	  
+	    <div class="stars fll">
+          <div class="str-full"></div>
+          <div class="str-full"></div>
+          <div class="str-full"></div>
+		  <div class="str-full"></div>
+          <div class="str-full"></div>
+        </div>
+	       
+	  </div>
+    </div>
+    
+    
+    	<div class="row padd-fl">
+      <div class="col-md-3 col-sm-4 col-sm-3">
+        
+      </div>
+      <div class="col-md-9 col-sm-9 col-xs-9">
+	  <button class="button orange cfvb">Отправить</button>
+	  </div>
+    </div>
+
+
+   
+    </div>
+  </div>
+	  
+	         
+  </div>
+</div>
+
+</div>
+
+</div>
+
+<div class="crty">
+<h5>Фотообзоры наших покупателей</h5>
+
+<div class="container">
+
+<div class="slider multiple-items2">
+
+  <div>
+    <img  data-toggle="modal" data-target="#img-modal" src="img/obz.png" alt=""></div>
+  <div>
+    <img  data-toggle="modal" data-target="#img-modal" src="img/obz.png" alt=""></div>
+  <div>
+    <img  data-toggle="modal" data-target="#img-modal" src="img/obz.png" alt=""></div>
+  <div>
+    <img  data-toggle="modal" data-target="#img-modal" src="img/obz.png" alt=""></div>
+  <div>
+    <img  data-toggle="modal" data-target="#img-modal" src="img/obz.png" alt=""></div>
+  <div>
+    <img  data-toggle="modal" data-target="#img-modal" src="img/obz.png" alt=""></div>
+  <div>
+    <img  data-toggle="modal" data-target="#img-modal" src="img/obz.png" alt=""></div>
+  <div>
+    <img  data-toggle="modal" data-target="#img-modal" src="img/obz.png" alt=""></div>
+  <div>
+    <img  data-toggle="modal" data-target="#img-modal" src="img/obz.png" alt=""></div>
+</div>
+
+<div class="btn-b">
+                <button class="button orange" data-toggle="modal" data-target="#add-modal">Добавить свое фото</button>
+              </div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<footer>
+
+<div class="container">
+<div class="row">
+<div class="col-md-3 col-sm-4">
+<div class="area-f-l">
+<p>© 2016 Экипировочный центр СоюзСпецОснащение</p>
+<div class="socials fll">
+  <a href="#" class="soc1"></a>
+  <a href="#" class="soc2"></a>
+  <a href="#" class="soc3"></a>
+  <a href="#" class="soc4"></a>
+  <a href="#" class="soc5"></a>
+</div>
+<div class="clearfix"></div>
+<h5>
+  Разработка сайта -
+  <a href="#">Белый кот</a>
+</h5>
+</div>
+</div>
+
+<div class="col-md-2 col-sm-4">
+<div class="memu-foot">
+<ul>
+  <li class="fst-li">О компании</li>
+  <li>
+    <a href="">О нас</a>
+  </li>
+  <li>
+    <a href="">Разработка продукции</a>
+  </li>
+  <li>
+    <a href="">Сотрудничество</a>
+  </li>
+  <li>
+    <a href="">Вакансии</a>
+  </li>
+  <li>
+    <a href="">Контакты</a>
+  </li>
+</ul>
+</div>
+</div>
+
+<div class="col-md-2 col-sm-4">
+<div class="memu-foot">
+<ul>
+  <li class="fst-li">Информация</li>
+  <li>
+    <a href="">Как сделать заказ</a>
+  </li>
+  <li>
+    <a href="">Оплата и доставка</a>
+  </li>
+  <li>
+    <a href="">Гарантия и возврат</a>
+  </li>
+  <li>
+    <a href="">Отзывы</a>
+  </li>
+  <li>
+    <a href="">Новости</a>
+  </li>
+</ul>
+</div>
+</div>
+
+<div class="col-md-2 col-sm-4 dfe-no">
+<div class="memu-foot">
+<ul>
+  <li class="fst-li">Полезное</li>
+  <li>
+    <a href="">Расцветки</a>
+  </li>
+  <li>
+    <a href="">Размеры</a>
+  </li>
+  <li>
+    <a href="">Уход за изделиями</a>
+  </li>
+  <li>
+    <a href="">Материалы</a>
+  </li>
+  <li>
+    <a href="">Статьи</a>
+  </li>
+  <li>
+    <a href="">Форум</a>
+  </li>
+</ul>
+</div>
+</div>
+
+<div class="clearfix no-fess"></div>
+
+<div class="col-md-3 col-sm-4">
+<div class="area-f-r">
+<div class="clearfix"></div>
+<a class="enter" href="#" data-toggle="modal" data-target="#autoriz">Вход и регитстрация</a>
+<div class="clearfix"></div>
+<a class="enter2" href="#">Где купить?</a>
+<p class="prins">Принимаем к оплате</p>
+<img src="img/ssw.png" class="img-responsive" alt=""></div>
+</div>
+</div>
+</div>
+</footer>
+
+<!-- инициализация скриптов -->
+
+<script src="js/scripts.js"></script>
+
+<!-- инициализация скриптов -->
+<!-- modals -->
+
+<div class="modal fade" id="pricel" aria-hidden="false">
+<div class="modal-dialog">
+<div class="modal-content">
+
+<div class="modal-body">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+<h3>Заказать обратный звонок</h3>
+<form action="">
+<div class="sm-fr clearfix">
+  <label for="">Имя</label>
+  <input type="text"></div>
+<div class="sm-fr clearfix">
+  <label for="">Телефон</label>
+  <input type="tel" name="phone"/></div>
+<div class="sm-fr clearfix">
+  <label for="">Комментарий</label>
+  <textarea name="" id="" cols="30" rows="10" placeholder="Например: Удобное время для звонка"></textarea>
+</div>
+<div class="sm-fr clearfix">
+  <button class="button">Отправить</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<!-- modals -->
+
+<!-- modals -->
+
+<div class="modal fade" id="autoriz" aria-hidden="false">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-body">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+<h3>Авторизация</h3>
+<form action="">
+<div class="sm-fr clearfix">
+  <label for="">Электронная почта</label>
+  <input type="text"></div>
+<div class="sm-fr clearfix">
+  <label for="">Пароль</label>
+  <input type="password"></div>
+
+<div class="sm-fr clearfix">
+  <button class="button">Войти</button>
+  <a class="reg-hr" href="#" data-dismiss="modal" data-toggle="modal" data-target="#reg">Регистрация</a>
+</div>
+</form>
+</div>
+<div class="soc-blk">
+<div class="fll entrs">Войти через соцсети</div>
+<div class="socials fll">
+<a href="#" class="soc1"></a>
+<a href="#" class="soc2"></a>
+<a href="#" class="soc3"></a>
+<a href="#" class="soc4"></a>
+<a href="#" class="soc5"></a>
+<a href="#" class="soc6"></a>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<!-- modals -->
+
+<!-- modals -->
+
+<div class="modal fade" id="reg" aria-hidden="false">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-body">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+<h3>Регистрация</h3>
+<form action="">
+<div class="sm-fr clearfix">
+  <label for="">Электронная почта</label>
+  <input type="text"></div>
+<div class="sm-fr clearfix">
+  <label for="">Телефон</label>
+  <input type="tel" name="phone"/></div>
+
+<div class="sm-fr clearfix">
+  <label for="">Имя и фамилия</label>
+  <input type="text"></div>
+
+<div class="sm-fr clearfix">
+  <button class="button reg-btn">Зарегистрироваться</button>
+  <a class="reg-hr" href="#"  data-dismiss="modal" data-toggle="modal" data-target="#autoriz">Уже зарегистрированы?</a>
+</div>
+</form>
+</div>
+<div class="soc-blk">
+<div class="fll entrs">Войти через соцсети</div>
+<div class="socials fll">
+<a href="#" class="soc1"></a>
+<a href="#" class="soc2"></a>
+<a href="#" class="soc3"></a>
+<a href="#" class="soc4"></a>
+<a href="#" class="soc5"></a>
+<a href="#" class="soc6"></a>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+<!-- modals -->
+<!-- modals -->
+
+<div class="modal" id="img-pr" aria-hidden="false">
+<div class="modal-dialog">
+<div class="modal-content">
+
+<div class="modal-body">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+<div class="flds"  data-dismiss="modal" data-toggle="modal" data-target="#img-pr2"></div>
+<div class="flds2"  data-dismiss="modal" data-toggle="modal" data-target="#img-pr2"></div>
+<img src="img/img-pr.png" alt=""></div>
+</div>
+</div>
+</div>
+<!-- modals -->
+<!-- modals -->
+
+<div class="modal" id="img-pr2" aria-hidden="false">
+<div class="modal-dialog">
+<div class="modal-content">
+
+<div class="modal-body">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+<div class="flds"  data-dismiss="modal" data-toggle="modal" data-target="#img-pr"></div>
+<div class="flds2"  data-dismiss="modal" data-toggle="modal" data-target="#img-pr"></div>
+<img src="img/img-pr2.png" alt=""></div>
+</div>
+</div>
+</div>
+<!-- modals -->
+
+
+
+<!-- modals -->
+
+<div class="modal fade" id="click-modal" aria-hidden="false">
+<div class="modal-dialog">
+<div class="modal-content">
+
+<div class="modal-body">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+<h3>Заказать в один клик</h3>
+<form action="">
+<div class="sm-fr clearfix">
+  <label for="">Имя</label>
+  <input type="text"></div>
+<div class="sm-fr clearfix">
+  <label for="">Телефон</label>
+  <input type="tel" name="phone"/></div>
+
+<div class="sm-fr clearfix">
+  <button class="button">Отправить</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<!-- modals -->
+<!-- modals -->
+
+<div class="modal fade" id="img-modal" aria-hidden="false">
+<div class="modal-dialog sert-modal">
+<div class="modal-content">
+
+<div class="modal-body">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+<div class="flds"></div>
+<div class="flds2"></div>
+<img src="img/msq2.png" alt=""></div>
+</div>
+</div>
+</div>
+<!-- modals -->
+
+
+
+<!-- modals -->
+
+<div class="modal fade" id="video-modal" aria-hidden="false">
+<div class="modal-dialog">
+<div class="modal-content">
+
+<div class="modal-body">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+<iframe class="frrr" src=http://www.youtube.com/embed/OCUZ3YOB1T8?rel=0&autoplay=0
+frameborder="0" allowfullscreen></iframe></div>
+</div>
+</div>
+</div>
+<!-- modals -->
+
+<!-- modals -->
+
+<div class="modal fade" id="add-modal" aria-hidden="false">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-body">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+<h3>Добавьте фото своего товара</h3>
+<form action="">
+  <div class="sm-fr clearfix">
+    <label for="">Фотография</label>
+    <input type="file"></div>
+  <div class="sm-fr sdfd clearfix">
+    <label for="">Дата покупки</label>
+    <input class="hidden-xs hidden-sm" type="text" id="datepicker">
+    
+    <input class="hidden-md hidden-lg" type="date" name="calendar">
+
+  <div class="sm-fr clearfix">
+    <button class="button">Отправить</button>
+    <a class="reg-hr fls" href="#" data-dismiss="modal">Отменить</a>
+  </div>
+</form>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<!-- modals -->
+
+
+
+
+
+
+<script>
+	$(document).ready(function() {
+  $('#video-modal').on('hidden.bs.modal', function() {
+    var $this = $(this).find('iframe'),
+      tempSrc = $this.attr('src');
+    $this.attr('src', "");
+    $this.attr('src', tempSrc);
+  });
+    });
+</script>
+
+
+</body>
+</html>

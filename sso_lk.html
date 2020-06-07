@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
+  <title>html</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--[if IE]>
+  <script src="js/html5.js"></script>
+  <![endif]-->
+
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" type="text/css" href="plugins/SlickSlider/slick/slick.css"/>
+
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- Slider Kit styles -->
+  <link rel="stylesheet" type="text/css" href="lib/css/sliderkit-core.css" media="screen, projection" />
+  <link rel="stylesheet" type="text/css" href="lib/css/sliderkit-demos.css" media="screen, projection" />
+
+  <link rel="stylesheet" href="plugins/Swiper/dist/css/swiper.min.css">
+
+  <link href="plugins/formstyler/jquery.formstyler.css" rel="stylesheet" />
+
+  <!-- JQui -->
+  <link href="plugins/JQui/jquery-ui.css" rel="stylesheet" />
+
+  <!-- JQui -->
+
+  <!-- Fotorama -->
+  <link href="plugins/fotorama/fotorama.css" rel="stylesheet">
+
+  <!-- document stylesheet files -->
+  <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+  <link rel="stylesheet" href="plugins/formstyler/jquery.formstyler.css" />
+
+  <link href="css/style.css" rel="stylesheet" media="screen">
+  <!--[if gte IE 9]>
+  <link rel="stylesheet" href="css/ie9.css" media="screen, projection">
+  <![endif]-->
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="css/ie8.css" media="screen, projection">
+  <![endif]-->
+  <!--[if lte IE 7]>
+  <link rel="stylesheet" href="css/ie7.css" media="screen, projection">
+  <![endif]-->
+
+  <!-- FONT  -->
+
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+  <!-- FONT -->
+
+  <script src="js/jquery-1.10.2.min.js"></script>
+
+  <script src="plugins/formstyler/jquery.formstyler.js"></script>
+  <script src="plugins/fancybox/jquery.fancybox.js"></script>
+  <script src="plugins/inview/jquery.inview.min.js"></script>
+  <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+  <!-- modals -->
+  <script src="js/bootstrap.js"></script>
+  <script src="plugins/SlickSlider/slick/slick.js"></script>
+  <script src="plugins/JQui/jquery-ui.js"></script>
+  <script src="plugins/formstyler/jquery.formstyler.js"></script>
+  <script src="plugins/Swiper/dist/js/swiper.jquery.min.js"></script>
+  <script src="plugins/bxslider/jquery.bxslider.js"></script>
+  <link rel="stylesheet" href="plugins/CustomScrollbarr/jquery.mCustomScrollbar.css" />
+
+  <script src="plugins/CustomScrollbarr/jquery.mCustomScrollbar.js"></script>
+  <script src="plugins/fotorama/fotorama.js"></script>
+  <script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
+</head>
+<body>
+
+  <div class="topheader">
+    <div class="container">
+       <ul class="language-select">
+        <li class="active" data-lang="ua"><a>Москва</a></li>
+        <li data-lang="ru"><a>Санкт-Петербург</a></li>
+        <li data-lang="en"><a>Волгоград</a></li>
+      </ul>
+
+      <a class="enter" href="#" data-toggle="modal" data-target="#autoriz">Вход и регитстрация</a>
+
+      <ul class="flr ntlmen">
+        <li>
+          <a href="contacts.html">Контакты</a>
+        </li>
+        <li>
+          <a href="сooperation.html">Сотрудничество</a>
+        </li>
+        <li>
+          <a href="news.html">Новости</a>
+        </li>
+        <li>
+          <a href="about.html">О нас</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+
+  <div class="centerheader">
+    <div class="container">
+      <a href="#"><a href="#"><div class="logo-area fll"></div></a></a>
+      <div class="phone-area fll">
+        <div class="tels">8 (495) 649-67-38</div>
+        <div class="tels">8 (929) 649-62-38</div>
+        <div class="obr-btn"  data-toggle="modal" data-target="#pricel">Обратный звонок</div>
+      </div>
+
+      <div class="map-bay">
+        <a href="">Где купить</a>
+      </div>
+
+      <div class="socials fll">
+        <a href="#" class="soc1"></a>
+        <a href="#" class="soc2"></a>
+        <a href="#" class="soc3"></a>
+        <a href="#" class="soc4"></a>
+        <a href="#" class="soc5"></a>
+      </div>
+
+      <div class="input-search fll">
+        <input type="search" placeholder="Поиск">
+        <button class="srchr"></button>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="navbar navbar-inverse">
+    <div class="container">
+      <div class="logo-ng"></div>
+      <div class="navbar-header">
+        <a class="enter hidden-lg hidden-md hidden-sm" href="#" data-toggle="modal" data-target="#autoriz">Вход и регитстрация</a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+          <span class="sr-only">Открыть</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="responsive-menu">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a class="nts1" href="#">Одежда</a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="#">Пункт 1</a>
+              </li>
+              <li>
+                <a href="#">Пункт 2</a>
+              </li>
+              <li>
+                <a href="#">Пункт 3</a>
+              </li>
+              <li>
+                <a href="#">Пункт 4</a>
+              </li>
+            </ul>
+          </li>
+
+        </li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle nts2" data-toggle="dropdown">Снаряжение</a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="#">Пункт 1</a>
+            </li>
+            <li>
+              <a href="#">Пункт 2</a>
+            </li>
+            <li>
+              <a href="#">Пункт 3</a>
+            </li>
+            <li>
+              <a href="#">Пункт 4</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a class="nts3" href="#">Жилеты</a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="#">Пункт 1</a>
+            </li>
+            <li>
+              <a href="#">Пункт 2</a>
+            </li>
+            <li>
+              <a href="#">Пункт 3</a>
+            </li>
+            <li>
+              <a href="#">Пункт 4</a>
+            </li>
+          </ul>
+        </li>
+
+      </li>
+      <li class="dropdown">
+        <a class="nts4" href="#">Рюкзаки</a>
+        <ul class="dropdown-menu">
+          <li>
+            <a href="#">Пункт 1</a>
+          </li>
+          <li>
+            <a href="#">Пункт 2</a>
+          </li>
+          <li>
+            <a href="#">Пункт 3</a>
+          </li>
+          <li>
+            <a href="#">Пункт 4</a>
+          </li>
+        </ul>
+      </li>
+
+    </li>
+    <li class="dropdown">
+      <a class="nts5" href="#">Обувь</a>
+      <ul class="dropdown-menu">
+        <li>
+          <a href="#">Пункт 1</a>
+        </li>
+        <li>
+          <a href="#">Пункт 2</a>
+        </li>
+        <li>
+          <a href="#">Пункт 3</a>
+        </li>
+        <li>
+          <a href="#">Пункт 4</a>
+        </li>
+      </ul>
+    </li>
+
+  </li>
+  <li class="dropdown">
+    <a class="nts6" href="#">Аксессуары</a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="#">Пункт 1</a>
+      </li>
+      <li>
+        <a href="#">Пункт 2</a>
+      </li>
+      <li>
+        <a href="#">Пункт 3</a>
+      </li>
+      <li>
+        <a href="#">Пункт 4</a>
+      </li>
+    </ul>
+  </li>
+
+</li>
+</ul>
+
+<div class="bask-area flr">
+<div class="nts8 flr">
+  <a href="">1</a>
+</div>
+<div class="nts7 flr">
+  <a href="">5</a>
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="clearfix"></div>
+
+<div class="content">
+<div class="container">
+<div id="breadcrumb" class="row breadcrumb">
+<div class="" itemprop="breadcrumb">
+<a class="homepage-link" href="index.html">Главная</a> <b>/</b>
+<span class="page-title">Личный кабинет</span>
+</div>
+</div>
+
+<div class="row">
+<h1 class="page-h1">Личный кабинет</h1>
+<div class="col-lg-8 col-md-8 col-sm-7 cfghr">
+
+<div class="user-block">
+  <img class="fll" src="img/dgre.png" alt="">
+  <div class="clfk">
+    <h4>Сергей Иванов</h4>
+    <p>
+      <span>sergunya1975@mail.ru</span>
+      <a href="#" data-toggle="modal" data-target="#profiles-modal">Редактировать профиль</a>
+      <a href="#">Сменить пароль</a>
+    </p>
+  </div>
+</div>
+
+<div class="h4-st">
+  <h4>История покупок</h4>
+</div>
+
+<div class="tabs-tl">
+
+  <div class="">
+    <div class="nt-nav fll">Статус заказа:</div>
+    <ul  class="nav nav-pills">
+      <li class="active">
+        <a  href="#1a" data-toggle="tab">Любой</a>
+      </li>
+      <li>
+        <a href="#2a" data-toggle="tab">Обработка</a>
+      </li>
+      <li>
+        <a href="#3a" data-toggle="tab">Выполнен</a>
+      </li>
+      <li>
+        <a href="#3a" data-toggle="tab">Отменен</a>
+      </li>
+    </ul>
+    <div>
+
+      <div class="tab-content clearfix">
+
+        <div class="tab-pane active" id="1a">
+
+          <table class="tpx-table">
+            <thead>
+              <tr class="top-labels">
+                <th style="width: 15%;" class="text-left">Номер</th>
+                <th>Состав заказа</th>
+                <th class="fgtes" style="width: 15%;">Сумма</th>
+                <th style="width: 15%;">Статус</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="item">
+                <td class="tr-srt"> <strong>№ 123</strong>
+                  <p>15.03.2015 в 19:30</p>
+                </td>
+                <td class="tr-srt"> <strong>Футболка для ношения под бронежилет</strong>
+                  <p>
+                    и еще
+                    <a href="#">4 товара</a>
+                  </p>
+                </td>
+                <td>
+                  <strong>34 950 р.</strong>
+                </td>
+                <td>Обработка</td>
+              </tr>
+              <tr class="item">
+                <td class="tr-srt"> <strong>№ 123</strong>
+                  <p>15.03.2015 в 19:30</p>
+                </td>
+                <td class="tr-srt"> <strong>Футболка для ношения под бронежилет</strong>
+                  <p>
+                    и еще
+                    <a href="#">4 товара</a>
+                  </p>
+                </td>
+                <td>
+                  <strong>34 950 р.</strong>
+                </td>
+                <td>Обработка</td>
+              </tr>
+              <tr class="item">
+                <td class="tr-srt"> <strong>№ 123</strong>
+                  <p>15.03.2015 в 19:30</p>
+                </td>
+                <td class="tr-srt"> <strong>Футболка для ношения под бронежилет</strong>
+                  <p>
+                    и еще
+                    <a href="#">4 товара</a>
+                  </p>
+                </td>
+                <td>
+                  <strong>34 950 р.</strong>
+                </td>
+                <td>Обработка</td>
+              </tr>
+              <tr class="item">
+                <td class="tr-srt"> <strong>№ 123</strong>
+                  <p>15.03.2015 в 19:30</p>
+                </td>
+                <td class="tr-srt"> <strong>Футболка для ношения под бронежилет</strong>
+                  <p>
+                    и еще
+                    <a href="#">4 товара</a>
+                  </p>
+                </td>
+                <td>
+                  <strong>34 950 р.</strong>
+                </td>
+                <td>Обработка</td>
+              </tr>
+              <tr class="item">
+                <td class="tr-srt"> <strong>№ 123</strong>
+                  <p>15.03.2015 в 19:30</p>
+                </td>
+                <td class="tr-srt"> <strong>Футболка для ношения под бронежилет</strong>
+                  <p>
+                    и еще
+                    <a href="#">4 товара</a>
+                  </p>
+                </td>
+                <td>
+                  <strong>34 950 р.</strong>
+                </td>
+                <td>Обработка</td>
+              </tr>
+              <tr class="item">
+                <td class="tr-srt"> <strong>№ 123</strong>
+                  <p>15.03.2015 в 19:30</p>
+                </td>
+                <td class="tr-srt"> <strong>Футболка для ношения под бронежилет</strong>
+                  <p>
+                    и еще
+                    <a href="#">4 товара</a>
+                  </p>
+                </td>
+                <td>
+                  <strong>34 950 р.</strong>
+                </td>
+                <td>Обработка</td>
+              </tr>
+              <tr class="item">
+                <td class="tr-srt"> <strong>№ 123</strong>
+                  <p>15.03.2015 в 19:30</p>
+                </td>
+                <td class="tr-srt"> <strong>Футболка для ношения под бронежилет</strong>
+                  <p>
+                    и еще
+                    <a href="#">4 товара</a>
+                  </p>
+                </td>
+                <td>
+                  <strong>34 950 р.</strong>
+                </td>
+                <td>Обработка</td>
+              </tr>
+              <tr class="item">
+                <td class="tr-srt"> <strong>№ 123</strong>
+                  <p>15.03.2015 в 19:30</p>
+                </td>
+                <td class="tr-srt"> <strong>Футболка для ношения под бронежилет</strong>
+                  <p>
+                    и еще
+                    <a href="#">4 товара</a>
+                  </p>
+                </td>
+                <td>
+                  <strong>34 950 р.</strong>
+                </td>
+                <td>Обработка</td>
+              </tr>
+
+            </tbody>
+          </table>
+
+        </div>
+
+        <div class="tab-pane" id="2a">Панель 2</div>
+
+        <div class="tab-pane" id="3a">Панель 3</div>
+        <div class="tab-pane" id="4a">Панель 4</div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <nav class="fll">
+    <ul class="pagination">
+      <li>
+        <a href="#" aria-label="Previous">
+          <span aria-hidden="true">«</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">1</a>
+      </li>
+      <li>
+        <a href="#">2</a>
+      </li>
+      <li>
+        <a href="#">3</a>
+      </li>
+      <li>
+        <a href="#">4</a>
+      </li>
+      <li>
+        <a href="#">5</a>
+      </li>
+      <li>
+        <a href="#">...</a>
+      </li>
+      <li>
+        <a href="#">15</a>
+      </li>
+      <li>
+        <a href="#" aria-label="Next">
+          <span aria-hidden="true">»</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-4 col-sm-5 cfghr">
+<div class="sost-st soro-st">
+  <h5>Ваше звание</h5>
+  <img src="img/pgn.png" alt="">
+  <h4>Полковник ССО</h4>
+  <hr>
+  <p class="gra">До следующего звания "ГЕНЕРАЛ"</p>
+  <p>
+    Совершите покупки еще
+    <br>на 5 000 руб.</p>
+  <p>Оставьте 10 отзывов к товарам</p>
+</div>
+
+<div class="sost-st soro-st">
+  <h5>Текущая скидка</h5>
+  <div class="skda">3%</div>
+  <hr>
+  <p class="gra">Получите скидку 5%</p>
+
+  <p>
+    Совершите покупки еще 
+на 5 000 руб.
+  </p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+<footer>
+
+<div class="container">
+<div class="row">
+<div class="col-md-3 col-sm-4">
+<div class="area-f-l">
+  <p>© 2016 Экипировочный центр СоюзСпецОснащение</p>
+  <div class="socials fll">
+    <a href="#" class="soc1"></a>
+    <a href="#" class="soc2"></a>
+    <a href="#" class="soc3"></a>
+    <a href="#" class="soc4"></a>
+    <a href="#" class="soc5"></a>
+  </div>
+  <div class="clearfix"></div>
+  <h5>
+    Разработка сайта -
+    <a href="#">Белый кот</a>
+  </h5>
+</div>
+</div>
+
+<div class="col-md-2 col-sm-4">
+<div class="memu-foot">
+  <ul>
+    <li class="fst-li">О компании</li>
+    <li>
+      <a href="">О нас</a>
+    </li>
+    <li>
+      <a href="">Разработка продукции</a>
+    </li>
+    <li>
+      <a href="">Сотрудничество</a>
+    </li>
+    <li>
+      <a href="">Вакансии</a>
+    </li>
+    <li>
+      <a href="">Контакты</a>
+    </li>
+  </ul>
+</div>
+</div>
+
+<div class="col-md-2 col-sm-4">
+<div class="memu-foot">
+  <ul>
+    <li class="fst-li">Информация</li>
+    <li>
+      <a href="">Как сделать заказ</a>
+    </li>
+    <li>
+      <a href="">Оплата и доставка</a>
+    </li>
+    <li>
+      <a href="">Гарантия и возврат</a>
+    </li>
+    <li>
+      <a href="">Отзывы</a>
+    </li>
+    <li>
+      <a href="">Новости</a>
+    </li>
+  </ul>
+</div>
+</div>
+
+<div class="col-md-2 col-sm-4 dfe-no">
+<div class="memu-foot">
+  <ul>
+    <li class="fst-li">Полезное</li>
+    <li>
+      <a href="">Расцветки</a>
+    </li>
+    <li>
+      <a href="">Размеры</a>
+    </li>
+    <li>
+      <a href="">Уход за изделиями</a>
+    </li>
+    <li>
+      <a href="">Материалы</a>
+    </li>
+    <li>
+      <a href="">Статьи</a>
+    </li>
+    <li>
+      <a href="">Форум</a>
+    </li>
+  </ul>
+</div>
+</div>
+
+<div class="clearfix no-fess"></div>
+
+<div class="col-md-3 col-sm-4">
+<div class="area-f-r">
+  <div class="clearfix"></div>
+  <a class="enter" href="#" data-toggle="modal" data-target="#autoriz">Вход и регитстрация</a>
+  <div class="clearfix"></div>
+  <a class="enter2" href="#">Где купить?</a>
+  <p class="prins">Принимаем к оплате</p>
+  <img src="img/ssw.png" class="img-responsive" alt=""></div>
+</div>
+</div>
+</div>
+</footer>
+
+<!-- инициализация скриптов -->
+
+<script src="js/scripts.js"></script>
+
+<!-- инициализация скриптов -->
+
+<!-- modals -->
+
+<div class="modal fade" id="pricel" aria-hidden="false">
+<div class="modal-dialog">
+<div class="modal-content">
+
+<div class="modal-body">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+<h3>Заказать обратный звонок</h3>
+<form action="">
+  <div class="sm-fr clearfix">
+    <label for="">Имя</label>
+    <input type="text"></div>
+  <div class="sm-fr clearfix">
+    <label for="">Телефон</label>
+    <input type="tel" name="phone"/></div>
+  <div class="sm-fr clearfix">
+    <label for="">Комментарий</label>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Например: Удобное время для звонка"></textarea>
+  </div>
+  <div class="sm-fr clearfix">
+    <button class="button">Отправить</button>
+  </div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<!-- modals -->
+
+<!-- modals -->
+
+<div class="modal fade" id="autoriz" aria-hidden="false">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-body">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+<h3>Авторизация</h3>
+<form action="">
+  <div class="sm-fr clearfix">
+    <label for="">Электронная почта</label>
+    <input type="text"></div>
+  <div class="sm-fr clearfix">
+    <label for="">Пароль</label>
+    <input type="password"></div>
+
+  <div class="sm-fr clearfix">
+    <button class="button">Войти</button>
+    <a class="reg-hr" href="#" data-dismiss="modal" data-toggle="modal" data-target="#reg">Регистрация</a>
+  </div>
+</form>
+</div>
+<div class="soc-blk">
+<div class="fll entrs">Войти через соцсети</div>
+<div class="socials fll">
+  <a href="#" class="soc1"></a>
+  <a href="#" class="soc2"></a>
+  <a href="#" class="soc3"></a>
+  <a href="#" class="soc4"></a>
+  <a href="#" class="soc5"></a>
+  <a href="#" class="soc6"></a>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<!-- modals -->
+
+<!-- modals -->
+
+<div class="modal fade" id="reg" aria-hidden="false">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-body">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+<h3>Регистрация</h3>
+<form action="">
+  <div class="sm-fr clearfix">
+    <label for="">Электронная почта</label>
+    <input type="text"></div>
+  <div class="sm-fr clearfix">
+    <label for="">Телефон</label>
+    <input type="tel" name="phone"/></div>
+
+  <div class="sm-fr clearfix">
+    <label for="">Имя и фамилия</label>
+    <input type="text"></div>
+
+  <div class="sm-fr clearfix">
+    <button class="button reg-btn">Зарегистрироваться</button>
+    <a class="reg-hr" href="#"  data-dismiss="modal" data-toggle="modal" data-target="#autoriz">Уже зарегистрированы?</a>
+  </div>
+</form>
+</div>
+<div class="soc-blk">
+<div class="fll entrs">Войти через соцсети</div>
+<div class="socials fll">
+  <a href="#" class="soc1"></a>
+  <a href="#" class="soc2"></a>
+  <a href="#" class="soc3"></a>
+  <a href="#" class="soc4"></a>
+  <a href="#" class="soc5"></a>
+  <a href="#" class="soc6"></a>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<!-- modals -->
+
+<!-- modals -->
+
+<div class="modal fade" id="sert" aria-hidden="false">
+<div class="modal-dialog sert-modal">
+<div class="modal-content">
+
+<div class="modal-body">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+<img src="img/sert.jpg" alt=""></div>
+</div>
+</div>
+</div>
+<!-- modals -->
+
+
+
+
+<!-- modals -->
+
+<div class="modal fade" id="profiles-modal" aria-hidden="false">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-body">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+<h3>Редактирование профиля</h3>
+<form action="">
+  <div class="sm-fr clearfix">
+    <label for="">Имя и фамилия</label>
+    <input value="Сергей Иванов" type="text"></div>
+    
+    
+    <div class="sm-fr clearfix">
+    <label for="">Регион</label>
+    <input value="Москва" type="text"></div>
+    
+    <div class="sm-fr clearfix">
+    <label for="">Индекс</label>
+    <input value="6453245" type="text"></div>
+    
+    <div class="sm-fr clearfix">
+    <label for="">Адрес доставки</label>
+    <input value="ул. Ленина, 12, кв. 45" type="text"></div>
+    
+    <div class="sm-fr clearfix">
+    <label for="">Электронная почта</label>
+    <input value="sergey1975@mail.ru" type="text"></div>
+    
+    
+    
+  <div class="sm-fr clearfix">
+    <label for="">Телефон</label>
+   <input type="tel" value="+7 913 298 2145" name="phone"/></div>
+
+
+  <div class="sm-fr clearfix">
+    <button class="button reg-btn">Сохранить</button>
+    <a class="reg-hr ghty" href="#"  data-dismiss="modal">Отменить</a>
+  </div>
+</form>
+</div>
+
+</div>
+
+</div>
+</div>
+<!-- modals -->
+
+</body>
+</html>
