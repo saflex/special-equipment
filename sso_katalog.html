@@ -1,355 +1,315 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta charset="UTF-8">
-  <title>html</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!--[if IE]>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <title>html</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--[if IE]>
   <script src="js/html5.js"></script>
   <![endif]-->
-
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-
-  <link rel="stylesheet" type="text/css" href="plugins/SlickSlider/slick/slick.css"/>
-
-  <link href="css/bootstrap.css" rel="stylesheet">
-  <!-- Slider Kit styles -->
-  <link rel="stylesheet" type="text/css" href="lib/css/sliderkit-core.css" media="screen, projection" />
-  <link rel="stylesheet" type="text/css" href="lib/css/sliderkit-demos.css" media="screen, projection" />
-
-  <link rel="stylesheet" href="plugins/Swiper/dist/css/swiper.min.css">
-
-  <link href="plugins/formstyler/jquery.formstyler.css" rel="stylesheet" />
-
-  <!-- JQui -->
-  <link href="plugins/JQui/jquery-ui.css" rel="stylesheet" />
-
-  <!-- JQui -->
-
-  <!-- Fotorama -->
-  <link href="plugins/fotorama/fotorama.css" rel="stylesheet">
-
-  <!-- document stylesheet files -->
-  <link href="css/bootstrap.css" rel="stylesheet" media="screen">
-  <link rel="stylesheet" href="plugins/formstyler/jquery.formstyler.css" />
-
-  <link href="css/style.css" rel="stylesheet" media="screen">
-  <!--[if gte IE 9]>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="plugins/SlickSlider/slick/slick.css" />
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Slider Kit styles -->
+    <link rel="stylesheet" type="text/css" href="lib/css/sliderkit-core.css" media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="lib/css/sliderkit-demos.css" media="screen, projection" />
+    <link rel="stylesheet" href="plugins/Swiper/dist/css/swiper.min.css">
+    <link href="plugins/formstyler/jquery.formstyler.css" rel="stylesheet" />
+    <!-- JQui -->
+    <link href="plugins/JQui/jquery-ui.css" rel="stylesheet" />
+    <!-- JQui -->
+    <!-- Fotorama -->
+    <link href="plugins/fotorama/fotorama.css" rel="stylesheet">
+    <!-- document stylesheet files -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="plugins/formstyler/jquery.formstyler.css" />
+    <link href="css/style.css" rel="stylesheet" media="screen">
+    <!--[if gte IE 9]>
   <link rel="stylesheet" href="css/ie9.css" media="screen, projection">
   <![endif]-->
-  <!--[if lte IE 8]>
+    <!--[if lte IE 8]>
   <link rel="stylesheet" href="css/ie8.css" media="screen, projection">
   <![endif]-->
-  <!--[if lte IE 7]>
+    <!--[if lte IE 7]>
   <link rel="stylesheet" href="css/ie7.css" media="screen, projection">
   <![endif]-->
-
-  <!-- FONT  -->
-
-  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-
-  <!-- FONT -->
-
-  <script src="js/jquery-1.10.2.min.js"></script>
-
-  <script src="plugins/formstyler/jquery.formstyler.js"></script>
-  <script src="plugins/fancybox/jquery.fancybox.js"></script>
-  <script src="plugins/inview/jquery.inview.min.js"></script>
-  <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-
-  <!-- modals -->
-  <script src="js/bootstrap.js"></script>
-  <script src="plugins/SlickSlider/slick/slick.js"></script>
-  <script src="plugins/JQui/jquery-ui.js"></script>
-  <script src="plugins/formstyler/jquery.formstyler.js"></script>
-  <script src="plugins/Swiper/dist/js/swiper.jquery.min.js"></script>
-  <script src="plugins/bxslider/jquery.bxslider.js"></script>
-  <link rel="stylesheet" href="plugins/CustomScrollbarr/jquery.mCustomScrollbar.css" />
-
-  <script src="plugins/CustomScrollbarr/jquery.mCustomScrollbar.js"></script>
-  <script src="plugins/fotorama/fotorama.js"></script>
-  <script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
+    <!-- FONT  -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <!-- FONT -->
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="plugins/formstyler/jquery.formstyler.js"></script>
+    <script src="plugins/fancybox/jquery.fancybox.js"></script>
+    <script src="plugins/inview/jquery.inview.min.js"></script>
+    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <!-- modals -->
+    <script src="js/bootstrap.js"></script>
+    <script src="plugins/SlickSlider/slick/slick.js"></script>
+    <script src="plugins/JQui/jquery-ui.js"></script>
+    <script src="plugins/formstyler/jquery.formstyler.js"></script>
+    <script src="plugins/Swiper/dist/js/swiper.jquery.min.js"></script>
+    <script src="plugins/bxslider/jquery.bxslider.js"></script>
+    <link rel="stylesheet" href="plugins/CustomScrollbarr/jquery.mCustomScrollbar.css" />
+    <script src="plugins/CustomScrollbarr/jquery.mCustomScrollbar.js"></script>
+    <script src="plugins/fotorama/fotorama.js"></script>
+    <script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
 </head>
+
 <body>
-
-  <div class="topheader">
-    <div class="container">
-      <ul class="language-select">
-        <li class="active" data-lang="ua"><a>Москва</a></li>
-        <li data-lang="ru"><a>Санкт-Петербург</a></li>
-        <li data-lang="en"><a>Волгоград</a></li>
-      </ul>
-
-      <a class="enter" href="#" data-toggle="modal" data-target="#autoriz">Вход и регитстрация</a>
-
-      <ul class="flr ntlmen">
-        <li>
-          <a href="contacts.html">Контакты</a>
-        </li>
-        <li>
-          <a href="сooperation.html">Сотрудничество</a>
-        </li>
-        <li>
-          <a href="news.html">Новости</a>
-        </li>
-        <li>
-          <a href="about.html">О нас</a>
-        </li>
-      </ul>
-
-    </div>
-  </div>
-
-  <div class="centerheader">
-    <div class="container">
-      <a href="#"><a href="#"><div class="logo-area fll"></div></a></a>
-      <div class="phone-area fll">
-        <div class="tels">8 (495) 649-67-38</div>
-        <div class="tels">8 (929) 649-62-38</div>
-        <div class="obr-btn"  data-toggle="modal" data-target="#pricel">Обратный звонок</div>
-      </div>
-
-      <div class="map-bay">
-        <a href="">Где купить</a>
-      </div>
-
-      <div class="socials fll">
-        <a href="#" class="soc1"></a>
-        <a href="#" class="soc2"></a>
-        <a href="#" class="soc3"></a>
-        <a href="#" class="soc4"></a>
-        <a href="#" class="soc5"></a>
-      </div>
-
-      <div class="input-search fll">
-        <input type="search" placeholder="Поиск">
-        <button class="srchr"></button>
-      </div>
-
-    </div>
-  </div>
-
-  <div class="navbar navbar-inverse">
-    <div class="container">
-      <div class="logo-ng"></div>
-      <div class="navbar-header">
-        <a class="enter hidden-lg hidden-md hidden-sm" href="#" data-toggle="modal" data-target="#autoriz">Вход и регитстрация</a>
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
-          <span class="sr-only">Открыть</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <div class="collapse navbar-collapse" id="responsive-menu">
-        <ul class="nav navbar-nav">
-          <li class="dropdown">
-            <a class="nts1" href="#">Одежда</a>
-            <ul class="dropdown-menu">
-              <li>
-                <a href="#">Пункт 1</a>
-              </li>
-              <li>
-                <a href="#">Пункт 2</a>
-              </li>
-              <li>
-                <a href="#">Пункт 3</a>
-              </li>
-              <li>
-                <a href="#">Пункт 4</a>
-              </li>
+    <div class="topheader">
+        <div class="container">
+            <ul class="language-select">
+                <li class="active" data-lang="ua"><a>Москва</a></li>
+                <li data-lang="ru"><a>Санкт-Петербург</a></li>
+                <li data-lang="en"><a>Волгоград</a></li>
             </ul>
-          </li>
-
-        </li>
-
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle nts2" data-toggle="dropdown">Снаряжение</a>
-          <ul class="dropdown-menu">
-            <li>
-              <a href="#">Пункт 1</a>
-            </li>
-            <li>
-              <a href="#">Пункт 2</a>
-            </li>
-            <li>
-              <a href="#">Пункт 3</a>
-            </li>
-            <li>
-              <a href="#">Пункт 4</a>
-            </li>
-          </ul>
-        </li>
-
-        <li class="dropdown">
-          <a class="nts3" href="#">Жилеты</a>
-          <ul class="dropdown-menu">
-            <li>
-              <a href="#">Пункт 1</a>
-            </li>
-            <li>
-              <a href="#">Пункт 2</a>
-            </li>
-            <li>
-              <a href="#">Пункт 3</a>
-            </li>
-            <li>
-              <a href="#">Пункт 4</a>
-            </li>
-          </ul>
-        </li>
-
-      </li>
-      <li class="dropdown">
-        <a class="nts4" href="#">Рюкзаки</a>
-        <ul class="dropdown-menu">
-          <li>
-            <a href="#">Пункт 1</a>
-          </li>
-          <li>
-            <a href="#">Пункт 2</a>
-          </li>
-          <li>
-            <a href="#">Пункт 3</a>
-          </li>
-          <li>
-            <a href="#">Пункт 4</a>
-          </li>
-        </ul>
-      </li>
-
-    </li>
-    <li class="dropdown">
-      <a class="nts5" href="#">Обувь</a>
-      <ul class="dropdown-menu">
-        <li>
-          <a href="#">Пункт 1</a>
-        </li>
-        <li>
-          <a href="#">Пункт 2</a>
-        </li>
-        <li>
-          <a href="#">Пункт 3</a>
-        </li>
-        <li>
-          <a href="#">Пункт 4</a>
-        </li>
-      </ul>
-    </li>
-
-  </li>
-  <li class="dropdown">
-    <a class="nts6" href="#">Аксессуары</a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="#">Пункт 1</a>
-      </li>
-      <li>
-        <a href="#">Пункт 2</a>
-      </li>
-      <li>
-        <a href="#">Пункт 3</a>
-      </li>
-      <li>
-        <a href="#">Пункт 4</a>
-      </li>
-    </ul>
-  </li>
-
-</li>
-</ul>
-
-<div class="bask-area flr">
-<div class="nts8 flr">
-  <a href="">1</a>
-</div>
-<div class="nts7 flr">
-  <a href="">5</a>
-</div>
-
-</div>
-
-</div>
-</div>
-</div>
-
-<div class="clearfix"></div>
-
-<div class="content">
-<div class="container">
-<div id="breadcrumb" class="row breadcrumb">
-<div class="" itemprop="breadcrumb">
-<a class="homepage-link" href="index.html">Главная</a> <b>/</b>
-<span class="page-title">Каталог</span>
-</div>
-</div>
-
-<div class="row">
-<h1 class="page-h1">Одежда</h1>
-<div class="col-lg-3 col-md-3">
-<div class="sel-area">
-  <form>
-    <div class="cls-area">
-      <label>Сезон</label>
-      <select>
-        <option>Любой</option>
-        <option>Любой</option>
-      </select>
+            <a class="enter" href="#" data-toggle="modal" data-target="#autoriz">Вход и регитстрация</a>
+            <ul class="flr ntlmen">
+                <li>
+                    <a href="contacts.html">Контакты</a>
+                </li>
+                <li>
+                    <a href="сooperation.html">Сотрудничество</a>
+                </li>
+                <li>
+                    <a href="news.html">Новости</a>
+                </li>
+                <li>
+                    <a href="about.html">О нас</a>
+                </li>
+            </ul>
+        </div>
     </div>
-
-    <div class="cls-area">
-      <label>Тип изделия</label>
-      <select>
-        <option>Любой</option>
-        <option>Любой</option>
-      </select>
+    <div class="centerheader">
+        <div class="container">
+            <a href="#"><a href="#">
+                    <div class="logo-area fll"></div>
+                </a></a>
+            <div class="phone-area fll">
+                <div class="tels">8 (495) 649-67-38</div>
+                <div class="tels">8 (929) 649-62-38</div>
+                <div class="obr-btn" data-toggle="modal" data-target="#pricel">Обратный звонок</div>
+            </div>
+            <div class="map-bay">
+                <a href="">Где купить</a>
+            </div>
+            <div class="socials fll">
+                <a href="#" class="soc1"></a>
+                <a href="#" class="soc2"></a>
+                <a href="#" class="soc3"></a>
+                <a href="#" class="soc4"></a>
+                <a href="#" class="soc5"></a>
+            </div>
+            <div class="input-search fll">
+                <input type="search" placeholder="Поиск">
+                <button class="srchr"></button>
+            </div>
+        </div>
     </div>
-
-    <div class="cls-area2">
-      <label>Цвет</label>
-      <div class="colors-a scroller-i">
-        <div class="scr-col">
-          <img src="img/wiz-i.png" alt="">
-          <label for="thing">Flecktarn (Германия)</label>
+    <div class="navbar navbar-inverse">
+        <div class="container">
+            <div class="logo-ng"></div>
+            <div class="navbar-header">
+                <a class="enter hidden-lg hidden-md hidden-sm" href="#" data-toggle="modal" data-target="#autoriz">Вход и регитстрация</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                    <span class="sr-only">Открыть</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="responsive-menu">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="nts1" href="#">Одежда</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">Пункт 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Пункт 2</a>
+                            </li>
+                            <li>
+                                <a href="#">Пункт 3</a>
+                            </li>
+                            <li>
+                                <a href="#">Пункт 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle nts2" data-toggle="dropdown">Снаряжение</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">Пункт 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Пункт 2</a>
+                            </li>
+                            <li>
+                                <a href="#">Пункт 3</a>
+                            </li>
+                            <li>
+                                <a href="#">Пункт 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nts3" href="#">Жилеты</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">Пункт 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Пункт 2</a>
+                            </li>
+                            <li>
+                                <a href="#">Пункт 3</a>
+                            </li>
+                            <li>
+                                <a href="#">Пункт 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nts4" href="#">Рюкзаки</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">Пункт 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Пункт 2</a>
+                            </li>
+                            <li>
+                                <a href="#">Пункт 3</a>
+                            </li>
+                            <li>
+                                <a href="#">Пункт 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nts5" href="#">Обувь</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">Пункт 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Пункт 2</a>
+                            </li>
+                            <li>
+                                <a href="#">Пункт 3</a>
+                            </li>
+                            <li>
+                                <a href="#">Пункт 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nts6" href="#">Аксессуары</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">Пункт 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Пункт 2</a>
+                            </li>
+                            <li>
+                                <a href="#">Пункт 3</a>
+                            </li>
+                            <li>
+                                <a href="#">Пункт 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    </li>
+                </ul>
+                <div class="bask-area flr">
+                    <div class="nts8 flr">
+                        <a href="">1</a>
+                    </div>
+                    <div class="nts7 flr">
+                        <a href="">5</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="scr-col">
-          <img src="img/wiz-i.png" alt="">
-          <label for="thing">Flecktarn (Германия)</label>
-        </div>
-        <div class="scr-col">
-          <img src="img/wiz-i.png" alt="">
-          <label for="thing">Flecktarn (Германия)</label>
-        </div>
-        <div class="scr-col">
-          <img src="img/wiz-i.png" alt="">
-          <label for="thing">Flecktarn (Германия)</label>
-        </div>
-        <div class="scr-col">
-          <img src="img/wiz-i.png" alt="">
-          <label for="thing">Flecktarn (Германия)</label>
-        </div>
-        <div class="scr-col">
-          <img src="img/wiz-i.png" alt="">
-          <label for="thing">Flecktarn (Германия)</label>
-        </div>
-        <div class="scr-col">
-          <img src="img/wiz-i.png" alt="">
-          <label for="thing">Flecktarn (Германия)</label>
-        </div>
-        <div class="scr-col">
-          <img src="img/wiz-i.png" alt="">
-          <label for="thing">Flecktarn (Германия)</label>
-        </div>
-        <div class="scr-col">
-          <img src="img/wiz-i.png" alt="">
-          <label for="thing">Flecktarn (Германия)</label>
-        </div>
-        
-        <style>
-	        .scr-col {
+    </div>
+    <div class="clearfix"></div>
+    <div class="content">
+        <div class="container">
+            <div id="breadcrumb" class="row breadcrumb">
+                <div class="" itemprop="breadcrumb">
+                    <a class="homepage-link" href="index.html">Главная</a> <b>/</b>
+                    <span class="page-title">Каталог</span>
+                </div>
+            </div>
+            <div class="row">
+                <h1 class="page-h1">Одежда</h1>
+                <div class="col-lg-3 col-md-3">
+                    <div class="sel-area">
+                        <form>
+                            <div class="cls-area">
+                                <label>Сезон</label>
+                                <select>
+                                    <option>Любой</option>
+                                    <option>Любой</option>
+                                </select>
+                            </div>
+                            <div class="cls-area">
+                                <label>Тип изделия</label>
+                                <select>
+                                    <option>Любой</option>
+                                    <option>Любой</option>
+                                </select>
+                            </div>
+                            <div class="cls-area2">
+                                <label>Цвет</label>
+                                <div class="colors-a scroller-i">
+                                    <div class="scr-col">
+                                        <img src="img/wiz-i.png" alt="">
+                                        <label for="thing">Flecktarn (Германия)</label>
+                                    </div>
+                                    <div class="scr-col">
+                                        <img src="img/wiz-i.png" alt="">
+                                        <label for="thing">Flecktarn (Германия)</label>
+                                    </div>
+                                    <div class="scr-col">
+                                        <img src="img/wiz-i.png" alt="">
+                                        <label for="thing">Flecktarn (Германия)</label>
+                                    </div>
+                                    <div class="scr-col">
+                                        <img src="img/wiz-i.png" alt="">
+                                        <label for="thing">Flecktarn (Германия)</label>
+                                    </div>
+                                    <div class="scr-col">
+                                        <img src="img/wiz-i.png" alt="">
+                                        <label for="thing">Flecktarn (Германия)</label>
+                                    </div>
+                                    <div class="scr-col">
+                                        <img src="img/wiz-i.png" alt="">
+                                        <label for="thing">Flecktarn (Германия)</label>
+                                    </div>
+                                    <div class="scr-col">
+                                        <img src="img/wiz-i.png" alt="">
+                                        <label for="thing">Flecktarn (Германия)</label>
+                                    </div>
+                                    <div class="scr-col">
+                                        <img src="img/wiz-i.png" alt="">
+                                        <label for="thing">Flecktarn (Германия)</label>
+                                    </div>
+                                    <div class="scr-col">
+                                        <img src="img/wiz-i.png" alt="">
+                                        <label for="thing">Flecktarn (Германия)</label>
+                                    </div>
+                                    <style>
+                                        .scr-col {
     clear: both;
     overflow: hidden;
     margin-bottom: 12px;
@@ -369,91 +329,71 @@
     float: right;
 }
         </style>
-        
-        <script>
-	$('.scr-col').click(function(){
+                                    <script>
+                                        $('.scr-col').click(function(){
 $(this).toggleClass('active-elem');
 })
         </script>
-        
-        
-      </div>
-
-      <button class="button">Подобрать</button>
-      <a class="tyu" href="#">Сбросить</a>
-
-    </div>
-
-  </form>
-</div>
-</div>
-<div class="col-md-9 col-lg-9">
-<div class="sltr">
-
-  <ul  class="nav">
-    <li class="active">
-      <a  href="#1a" data-toggle="tab">Все товары</a>
-    </li>
-    <li>
-      <a href="#2a" data-toggle="tab">Маскировочная</a>
-    </li>
-    <li>
-      <a href="#3a" data-toggle="tab">Зимняя</a>
-    </li>
-
-    <li>
-      <a href="#4a" data-toggle="tab">Горная</a>
-    </li>
-    <li>
-      <a href="#5a" data-toggle="tab">Polar</a>
-    </li>
-
-    <li>
-      <a href="#6a" data-toggle="tab">Ветровлагозащитная</a>
-    </li>
-    <li>
-      <a href="#7a" data-toggle="tab">Перчатки</a>
-    </li>
-
-    <li>
-      <a href="#8a" data-toggle="tab">1 слой (майки)</a>
-    </li>
-    <li>
-      <a href="#9a" data-toggle="tab">Головные уборы</a>
-    </li>
-
-  </ul>
-</div>
-
-<div class="filter">
-  <div class="srto">Сортировать по:</div>
-  <div class="srto2">
-    <ul class="sltb">
-      <li>
-        <a class="active" href="#">Новинки</a>
-      </li>
-      <li>
-        <a href="#">Хиты продаж</a>
-      </li>
-      <li>
-        <a href="#">Спецпредложения</a>
-      </li>
-    </ul>
-  </div>
-</div>
-
-<div class="tab-content clearfix">
-  <div class="tab-pane active" id="1a">
-
-    <div class="row">
-
-
-
-
-
-<style>
-	
-	.result_hover:hover {
+                                </div>
+                                <button class="button">Подобрать</button>
+                                <a class="tyu" href="#">Сбросить</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-9 col-lg-9">
+                    <div class="sltr">
+                        <ul class="nav">
+                            <li class="active">
+                                <a href="#1a" data-toggle="tab">Все товары</a>
+                            </li>
+                            <li>
+                                <a href="#2a" data-toggle="tab">Маскировочная</a>
+                            </li>
+                            <li>
+                                <a href="#3a" data-toggle="tab">Зимняя</a>
+                            </li>
+                            <li>
+                                <a href="#4a" data-toggle="tab">Горная</a>
+                            </li>
+                            <li>
+                                <a href="#5a" data-toggle="tab">Polar</a>
+                            </li>
+                            <li>
+                                <a href="#6a" data-toggle="tab">Ветровлагозащитная</a>
+                            </li>
+                            <li>
+                                <a href="#7a" data-toggle="tab">Перчатки</a>
+                            </li>
+                            <li>
+                                <a href="#8a" data-toggle="tab">1 слой (майки)</a>
+                            </li>
+                            <li>
+                                <a href="#9a" data-toggle="tab">Головные уборы</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="filter">
+                        <div class="srto">Сортировать по:</div>
+                        <div class="srto2">
+                            <ul class="sltb">
+                                <li>
+                                    <a class="active" href="#">Новинки</a>
+                                </li>
+                                <li>
+                                    <a href="#">Хиты продаж</a>
+                                </li>
+                                <li>
+                                    <a href="#">Спецпредложения</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-content clearfix">
+                        <div class="tab-pane active" id="1a">
+                            <div class="row">
+                                <style>
+                                    .result_hover:hover {
     width: 283px;
 }
 
@@ -467,9 +407,9 @@ $(this).toggleClass('active-elem');
     border: 2px solid #FF7F00 !important;
 }
 .n-shop-button{
-	margin-top: 28px;
-}	
-	
+  margin-top: 28px;
+} 
+  
 .nbrs .prs-area a {
     max-height: 39px;
     overflow: hidden;
@@ -479,7 +419,7 @@ $(this).toggleClass('active-elem');
 
 
 @media  (max-width: 1199px){
-	.result_hover:hover {
+  .result_hover:hover {
     width: 235px;
 }
 
@@ -487,20 +427,20 @@ $(this).toggleClass('active-elem');
 
 
 .n-shop-button{
-	max-width: 60px;
+  max-width: 60px;
 }
-	
-	 }
+  
+   }
 
 
 @media  (max-width: 991px){
-		.result_hover:hover {
+    .result_hover:hover {
     width: 300px;
 }
 
 
 .nbrs .multiple-colors{
-	display: none;
+  display: none;
 }
 
 }
@@ -519,1774 +459,1471 @@ $(this).toggleClass('active-elem');
 }
 
 </style>
-
-
-      <div class="col-md-4 col-sm-6">
-        <div class="rds-a">
-
-          <div class="nbrs">
-            <div class="brds"><a class="wh-list" href="#"></a>
-              <div class="hit-s">Hit</div>
-              <a href="#">
-                <img src="img/brds.png" alt=""></a>
-            </div>
-            
-            
-              <div class="clearfix">
-        
-          <div class="slider multiple-colors">
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>DPM68</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Multicam</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-          </div>
-
-        </div>
-
-
-
-            <div class="prs-area">
-              <div class="flsw">
-                <a href="#">
-                  Футболка для ношения
-под бронежилет
-                </a>
-              </div>
-              
-              <div class="price-sh">
-                2300 руб.
-                <span>2600 руб.</span>
-              </div>
-
-              <div class="hide-area-st">
-              
-                <div class="cvs-k row">
-                  
-                  <div class="col-md-4">
-                    <div class="fll">
-                      <div class="cls-area">
-                        <label>Размер</label>
-                        <select>
-                          <option>46</option>
-                          <option>48</option>
-                        </select>
-                      </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="rds-a">
+                                        <div class="nbrs">
+                                            <div class="brds"><a class="wh-list" href="#"></a>
+                                                <div class="hit-s">Hit</div>
+                                                <a href="#">
+                                                    <img src="img/brds.png" alt=""></a>
+                                            </div>
+                                            <div class="clearfix">
+                                                <div class="slider multiple-colors">
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>DPM68</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Multicam</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="prs-area">
+                                                <div class="flsw">
+                                                    <a href="#">
+                                                        Футболка для ношения
+                                                        под бронежилет
+                                                    </a>
+                                                </div>
+                                                <div class="price-sh">
+                                                    2300 руб.
+                                                    <span>2600 руб.</span>
+                                                </div>
+                                                <div class="hide-area-st">
+                                                    <div class="cvs-k row">
+                                                        <div class="col-md-4">
+                                                            <div class="fll">
+                                                                <div class="cls-area">
+                                                                    <label>Размер</label>
+                                                                    <select>
+                                                                        <option>46</option>
+                                                                        <option>48</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="fll">
+                                                                <div class="cls-area">
+                                                                    <label>Рост</label>
+                                                                    <select>
+                                                                        <option>176</option>
+                                                                        <option>178</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <button class="button n-shop-button">Купить</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="rds-a">
+                                        <div class="nbrs">
+                                            <div class="brds"><a class="wh-list" href="#"></a>
+                                                <div class="hit-s">Hit</div>
+                                                <a href="#">
+                                                    <img src="img/brds.png" alt=""></a>
+                                            </div>
+                                            <div class="clearfix">
+                                                <div class="slider multiple-colors">
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>DPM68</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Multicam</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="prs-area">
+                                                <div class="flsw">
+                                                    <a href="#">
+                                                        Футболка для ношения
+                                                        под бронежилет
+                                                    </a>
+                                                </div>
+                                                <div class="price-sh">
+                                                    2300 руб.
+                                                    <span>2600 руб.</span>
+                                                </div>
+                                                <div class="hide-area-st">
+                                                    <div class="cvs-k row">
+                                                        <div class="col-md-4">
+                                                            <div class="fll">
+                                                                <div class="cls-area">
+                                                                    <label>Размер</label>
+                                                                    <select>
+                                                                        <option>46</option>
+                                                                        <option>48</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="fll">
+                                                                <div class="cls-area">
+                                                                    <label>Рост</label>
+                                                                    <select>
+                                                                        <option>176</option>
+                                                                        <option>178</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <button class="button n-shop-button">Купить</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="rds-a">
+                                        <div class="nbrs">
+                                            <div class="brds"><a class="wh-list" href="#"></a>
+                                                <div class="hit-s">Hit</div>
+                                                <a href="#">
+                                                    <img src="img/brds.png" alt=""></a>
+                                            </div>
+                                            <div class="clearfix">
+                                                <div class="slider multiple-colors">
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>DPM68</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Multicam</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="prs-area">
+                                                <div class="flsw">
+                                                    <a href="#">
+                                                        Футболка для ношения
+                                                        под бронежилет
+                                                    </a>
+                                                </div>
+                                                <div class="price-sh">
+                                                    2300 руб.
+                                                    <span>2600 руб.</span>
+                                                </div>
+                                                <div class="hide-area-st">
+                                                    <div class="cvs-k row">
+                                                        <div class="col-md-4">
+                                                            <div class="fll">
+                                                                <div class="cls-area">
+                                                                    <label>Размер</label>
+                                                                    <select>
+                                                                        <option>46</option>
+                                                                        <option>48</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="fll">
+                                                                <div class="cls-area">
+                                                                    <label>Рост</label>
+                                                                    <select>
+                                                                        <option>176</option>
+                                                                        <option>178</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <button class="button n-shop-button">Купить</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="rds-a">
+                                        <div class="nbrs">
+                                            <div class="brds"><a class="wh-list" href="#"></a>
+                                                <div class="hit-s">Hit</div>
+                                                <a href="#">
+                                                    <img src="img/brds.png" alt=""></a>
+                                            </div>
+                                            <div class="clearfix">
+                                                <div class="slider multiple-colors">
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>DPM68</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Multicam</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="prs-area">
+                                                <div class="flsw">
+                                                    <a href="#">
+                                                        Футболка для ношения
+                                                        под бронежилет
+                                                    </a>
+                                                </div>
+                                                <div class="price-sh">
+                                                    2300 руб.
+                                                    <span>2600 руб.</span>
+                                                </div>
+                                                <div class="hide-area-st">
+                                                    <div class="cvs-k row">
+                                                        <div class="col-md-4">
+                                                            <div class="fll">
+                                                                <div class="cls-area">
+                                                                    <label>Размер</label>
+                                                                    <select>
+                                                                        <option>46</option>
+                                                                        <option>48</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="fll">
+                                                                <div class="cls-area">
+                                                                    <label>Рост</label>
+                                                                    <select>
+                                                                        <option>176</option>
+                                                                        <option>178</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <button class="button n-shop-button">Купить</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="rds-a">
+                                        <div class="nbrs">
+                                            <div class="brds"><a class="wh-list" href="#"></a>
+                                                <div class="hit-s">Hit</div>
+                                                <a href="#">
+                                                    <img src="img/brds.png" alt=""></a>
+                                            </div>
+                                            <div class="clearfix">
+                                                <div class="slider multiple-colors">
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>DPM68</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Multicam</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="prs-area">
+                                                <div class="flsw">
+                                                    <a href="#">
+                                                        Футболка для ношения
+                                                        под бронежилет
+                                                    </a>
+                                                </div>
+                                                <div class="price-sh">
+                                                    2300 руб.
+                                                    <span>2600 руб.</span>
+                                                </div>
+                                                <div class="hide-area-st">
+                                                    <div class="cvs-k row">
+                                                        <div class="col-md-4">
+                                                            <div class="fll">
+                                                                <div class="cls-area">
+                                                                    <label>Размер</label>
+                                                                    <select>
+                                                                        <option>46</option>
+                                                                        <option>48</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="fll">
+                                                                <div class="cls-area">
+                                                                    <label>Рост</label>
+                                                                    <select>
+                                                                        <option>176</option>
+                                                                        <option>178</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <button class="button n-shop-button">Купить</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="rds-a">
+                                        <div class="nbrs">
+                                            <div class="brds"><a class="wh-list" href="#"></a>
+                                                <div class="hit-s">Hit</div>
+                                                <a href="#">
+                                                    <img src="img/brds.png" alt=""></a>
+                                            </div>
+                                            <div class="clearfix">
+                                                <div class="slider multiple-colors">
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>DPM68</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Multicam</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="prs-area">
+                                                <div class="flsw">
+                                                    <a href="#">
+                                                        Футболка для ношения
+                                                        под бронежилет
+                                                    </a>
+                                                </div>
+                                                <div class="price-sh">
+                                                    2300 руб.
+                                                    <span>2600 руб.</span>
+                                                </div>
+                                                <div class="hide-area-st">
+                                                    <div class="cvs-k row">
+                                                        <div class="col-md-4">
+                                                            <div class="fll">
+                                                                <div class="cls-area">
+                                                                    <label>Размер</label>
+                                                                    <select>
+                                                                        <option>46</option>
+                                                                        <option>48</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="fll">
+                                                                <div class="cls-area">
+                                                                    <label>Рост</label>
+                                                                    <select>
+                                                                        <option>176</option>
+                                                                        <option>178</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <button class="button n-shop-button">Купить</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="rds-a">
+                                        <div class="nbrs">
+                                            <div class="brds"><a class="wh-list" href="#"></a>
+                                                <div class="hit-s">Hit</div>
+                                                <a href="#">
+                                                    <img src="img/brds.png" alt=""></a>
+                                            </div>
+                                            <div class="clearfix">
+                                                <div class="slider multiple-colors">
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>DPM68</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Multicam</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="prs-area">
+                                                <div class="flsw">
+                                                    <a href="#">
+                                                        Футболка для ношения
+                                                        под бронежилет
+                                                    </a>
+                                                </div>
+                                                <div class="price-sh">
+                                                    2300 руб.
+                                                    <span>2600 руб.</span>
+                                                </div>
+                                                <div class="hide-area-st">
+                                                    <div class="cvs-k row">
+                                                        <div class="col-md-4">
+                                                            <div class="fll">
+                                                                <div class="cls-area">
+                                                                    <label>Размер</label>
+                                                                    <select>
+                                                                        <option>46</option>
+                                                                        <option>48</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="fll">
+                                                                <div class="cls-area">
+                                                                    <label>Рост</label>
+                                                                    <select>
+                                                                        <option>176</option>
+                                                                        <option>178</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <button class="button n-shop-button">Купить</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="rds-a">
+                                        <div class="nbrs">
+                                            <div class="brds"><a class="wh-list" href="#"></a>
+                                                <div class="hit-s">Hit</div>
+                                                <a href="#">
+                                                    <img src="img/brds.png" alt=""></a>
+                                            </div>
+                                            <div class="clearfix">
+                                                <div class="slider multiple-colors">
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>DPM68</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Multicam</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="prs-area">
+                                                <div class="flsw">
+                                                    <a href="#">
+                                                        Футболка для ношения
+                                                        под бронежилет
+                                                    </a>
+                                                </div>
+                                                <div class="price-sh">
+                                                    2300 руб.
+                                                    <span>2600 руб.</span>
+                                                </div>
+                                                <div class="hide-area-st">
+                                                    <div class="cvs-k row">
+                                                        <div class="col-md-4">
+                                                            <div class="fll">
+                                                                <div class="cls-area">
+                                                                    <label>Размер</label>
+                                                                    <select>
+                                                                        <option>46</option>
+                                                                        <option>48</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="fll">
+                                                                <div class="cls-area">
+                                                                    <label>Рост</label>
+                                                                    <select>
+                                                                        <option>176</option>
+                                                                        <option>178</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <button class="button n-shop-button">Купить</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="rds-a">
+                                        <div class="nbrs">
+                                            <div class="brds"><a class="wh-list" href="#"></a>
+                                                <div class="hit-s">Hit</div>
+                                                <a href="#">
+                                                    <img src="img/brds.png" alt=""></a>
+                                            </div>
+                                            <div class="clearfix">
+                                                <div class="slider multiple-colors">
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>DPM68</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Multicam</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="prs-area">
+                                                <div class="flsw">
+                                                    <a href="#">
+                                                        Футболка для ношения
+                                                        под бронежилет
+                                                    </a>
+                                                </div>
+                                                <div class="price-sh">
+                                                    2300 руб.
+                                                    <span>2600 руб.</span>
+                                                </div>
+                                                <div class="hide-area-st">
+                                                    <div class="cvs-k row">
+                                                        <div class="col-md-4">
+                                                            <div class="fll">
+                                                                <div class="cls-area">
+                                                                    <label>Размер</label>
+                                                                    <select>
+                                                                        <option>46</option>
+                                                                        <option>48</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="fll">
+                                                                <div class="cls-area">
+                                                                    <label>Рост</label>
+                                                                    <select>
+                                                                        <option>176</option>
+                                                                        <option>178</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <button class="button n-shop-button">Купить</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="rds-a">
+                                        <div class="nbrs">
+                                            <div class="brds"><a class="wh-list" href="#"></a>
+                                                <div class="hit-s">Hit</div>
+                                                <a href="#">
+                                                    <img src="img/brds.png" alt=""></a>
+                                            </div>
+                                            <div class="clearfix">
+                                                <div class="slider multiple-colors">
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>DPM68</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Multicam</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="prs-area">
+                                                <div class="flsw">
+                                                    <a href="#">
+                                                        Футболка для ношения
+                                                        под бронежилет
+                                                    </a>
+                                                </div>
+                                                <div class="price-sh">
+                                                    2300 руб.
+                                                    <span>2600 руб.</span>
+                                                </div>
+                                                <div class="hide-area-st">
+                                                    <div class="cvs-k row">
+                                                        <div class="col-md-4">
+                                                            <div class="fll">
+                                                                <div class="cls-area">
+                                                                    <label>Размер</label>
+                                                                    <select>
+                                                                        <option>46</option>
+                                                                        <option>48</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="fll">
+                                                                <div class="cls-area">
+                                                                    <label>Рост</label>
+                                                                    <select>
+                                                                        <option>176</option>
+                                                                        <option>178</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <button class="button n-shop-button">Купить</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="rds-a">
+                                        <div class="nbrs">
+                                            <div class="brds"><a class="wh-list" href="#"></a>
+                                                <div class="hit-s">Hit</div>
+                                                <a href="#">
+                                                    <img src="img/brds.png" alt=""></a>
+                                            </div>
+                                            <div class="clearfix">
+                                                <div class="slider multiple-colors">
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>DPM68</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Multicam</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="prs-area">
+                                                <div class="flsw">
+                                                    <a href="#">
+                                                        Футболка для ношения
+                                                        под бронежилет
+                                                    </a>
+                                                </div>
+                                                <div class="price-sh">
+                                                    2300 руб.
+                                                    <span>2600 руб.</span>
+                                                </div>
+                                                <div class="hide-area-st">
+                                                    <div class="cvs-k row">
+                                                        <div class="col-md-4">
+                                                            <div class="fll">
+                                                                <div class="cls-area">
+                                                                    <label>Размер</label>
+                                                                    <select>
+                                                                        <option>46</option>
+                                                                        <option>48</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="fll">
+                                                                <div class="cls-area">
+                                                                    <label>Рост</label>
+                                                                    <select>
+                                                                        <option>176</option>
+                                                                        <option>178</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <button class="button n-shop-button">Купить</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="rds-a">
+                                        <div class="nbrs">
+                                            <div class="brds"><a class="wh-list" href="#"></a>
+                                                <div class="hit-s">Hit</div>
+                                                <a href="#">
+                                                    <img src="img/brds.png" alt=""></a>
+                                            </div>
+                                            <div class="clearfix">
+                                                <div class="slider multiple-colors">
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>DPM68</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Multicam</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="str-im">
+                                                            <img src="img/clfs.png" alt="">
+                                                            <p>Flectar-D</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="prs-area">
+                                                <div class="flsw">
+                                                    <a href="#">
+                                                        Футболка для ношения
+                                                        под бронежилет
+                                                    </a>
+                                                </div>
+                                                <div class="price-sh">
+                                                    2300 руб.
+                                                    <span>2600 руб.</span>
+                                                </div>
+                                                <div class="hide-area-st">
+                                                    <div class="cvs-k row">
+                                                        <div class="col-md-4">
+                                                            <div class="fll">
+                                                                <div class="cls-area">
+                                                                    <label>Размер</label>
+                                                                    <select>
+                                                                        <option>46</option>
+                                                                        <option>48</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="fll">
+                                                                <div class="cls-area">
+                                                                    <label>Рост</label>
+                                                                    <select>
+                                                                        <option>176</option>
+                                                                        <option>178</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <button class="button n-shop-button">Купить</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="2a">Вкладка 2</div>
+                        <div class="tab-pane" id="3a">Вкладка 3</div>
+                        <div class="tab-pane" id="4a">Вкладка 4</div>
+                        <div class="tab-pane" id="5a">Вкладка 5</div>
+                        <div class="tab-pane" id="6a">Вкладка 6</div>
+                        <div class="tab-pane" id="7a">Вкладка 7</div>
+                        <div class="tab-pane" id="8a">Вкладка 8</div>
+                        <div class="tab-pane" id="9a">Вкладка 9</div>
+                        <div class="nav-str">
+                            <nav class="fll">
+                                <ul class="pagination">
+                                    <li>
+                                        <a href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">2</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">3</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">4</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">5</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">...</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">15</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="flr cdsw">
+                                <label>Показывать на одной стр.</label>
+                                <select>
+                                    <option>18</option>
+                                    <option>50</option>
+                                </select>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="fll">
-                      <div class="cls-area">
-                        <label>Рост</label>
-                        <select>
-                          <option>176</option>
-                          <option>178</option>
-                        </select>
-                      </div>
+                    <div class="rty-p">
+                        <p>
+                            Мужская одежда из ассортимента интернет-магазина «Спецоснащение» - это прекрасный подарок уверенному, следящему за модой современному мужчине. В ней сплетаются высокое качество, грамотный крой, стильный дизайн, продуманные фасоны и удобство. Натуральные ткани отлично впитывают влагу, а синтетические материалы хорошо садятся по фигуре, подчеркивая мускулатуру и другие ее достоинства, мягко маскируя недостатки.
+                        </p>
+                        <p>
+                            Модели представленных коллекций отлично сочетаются друг с другом, создавая законченный образ модного молодого человека. Большой выбор расцветок, узоров и рисунков поможет подобрать гардероб и для тех, кто любит взрывные цвета и подчеркивает свою неординарность, и для тех, кто предпочитает более спокойные и традиционные вещи.
+                        </p>
+                        <p> <strong>Мужская одежда в интернет-магазине "Спецоснащение"</strong>
+                        </p>
+                        <p>
+                            Стремясь порадовать покупателей лучшими товарами по доступным ценам, мы подобрали большой выбор одежды для мужчин любого возраста от популярных и востребованных брендов. Вы цените классический стиль или предпочитаете спортивные вещи? Уверены, вы найдете, что купить среди ассортимента нашего магазина! Быстрая доставка добавит удобства мужчинам, которые не любят тратить время на беготню по магазинам и точно знают, что им требуется.
+                        </p>
                     </div>
-                  </div>
-                  
-                  
-                  <div class="col-md-4">
-                   
-                <button class="button n-shop-button">Купить</button>
-           
-                  </div>
-
                 </div>
-              </div>
-
             </div>
-
-          
-          </div>
         </div>
-      </div>
-
-     
-     
-     <div class="col-md-4 col-sm-6">
-        <div class="rds-a">
-
-          <div class="nbrs">
-            <div class="brds"><a class="wh-list" href="#"></a>
-              <div class="hit-s">Hit</div>
-              <a href="#">
-                <img src="img/brds.png" alt=""></a>
-            </div>
-            
-            
-              <div class="clearfix">
-        
-          <div class="slider multiple-colors">
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>DPM68</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Multicam</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-          </div>
-
-        </div>
-
-
-
-            <div class="prs-area">
-              <div class="flsw">
-                <a href="#">
-                  Футболка для ношения
-под бронежилет
-                </a>
-              </div>
-              
-              <div class="price-sh">
-                2300 руб.
-                <span>2600 руб.</span>
-              </div>
-
-              <div class="hide-area-st">
-              
-                <div class="cvs-k row">
-                  
-                  <div class="col-md-4">
-                    <div class="fll">
-                      <div class="cls-area">
-                        <label>Размер</label>
-                        <select>
-                          <option>46</option>
-                          <option>48</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="fll">
-                      <div class="cls-area">
-                        <label>Рост</label>
-                        <select>
-                          <option>176</option>
-                          <option>178</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  
-                  <div class="col-md-4">
-                   
-                <button class="button n-shop-button">Купить</button>
-           
-                  </div>
-
-                </div>
-              </div>
-
-            </div>
-
-          
-          </div>
-        </div>
-      </div>
-
-
-<div class="col-md-4 col-sm-6">
-        <div class="rds-a">
-
-          <div class="nbrs">
-            <div class="brds"><a class="wh-list" href="#"></a>
-              <div class="hit-s">Hit</div>
-              <a href="#">
-                <img src="img/brds.png" alt=""></a>
-            </div>
-            
-            
-              <div class="clearfix">
-        
-          <div class="slider multiple-colors">
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>DPM68</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Multicam</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-          </div>
-
-        </div>
-
-
-
-            <div class="prs-area">
-              <div class="flsw">
-                <a href="#">
-                  Футболка для ношения
-под бронежилет
-                </a>
-              </div>
-              
-              <div class="price-sh">
-                2300 руб.
-                <span>2600 руб.</span>
-              </div>
-
-              <div class="hide-area-st">
-              
-                <div class="cvs-k row">
-                  
-                  <div class="col-md-4">
-                    <div class="fll">
-                      <div class="cls-area">
-                        <label>Размер</label>
-                        <select>
-                          <option>46</option>
-                          <option>48</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="fll">
-                      <div class="cls-area">
-                        <label>Рост</label>
-                        <select>
-                          <option>176</option>
-                          <option>178</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  
-                  <div class="col-md-4">
-                   
-                <button class="button n-shop-button">Купить</button>
-           
-                  </div>
-
-                </div>
-              </div>
-
-            </div>
-
-          
-          </div>
-        </div>
-      </div>
-
-
-
-<div class="col-md-4 col-sm-6">
-        <div class="rds-a">
-
-          <div class="nbrs">
-            <div class="brds"><a class="wh-list" href="#"></a>
-              <div class="hit-s">Hit</div>
-              <a href="#">
-                <img src="img/brds.png" alt=""></a>
-            </div>
-            
-            
-              <div class="clearfix">
-        
-          <div class="slider multiple-colors">
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>DPM68</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Multicam</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-          </div>
-
-        </div>
-
-
-
-            <div class="prs-area">
-              <div class="flsw">
-                <a href="#">
-                  Футболка для ношения
-под бронежилет
-                </a>
-              </div>
-              
-              <div class="price-sh">
-                2300 руб.
-                <span>2600 руб.</span>
-              </div>
-
-              <div class="hide-area-st">
-              
-                <div class="cvs-k row">
-                  
-                  <div class="col-md-4">
-                    <div class="fll">
-                      <div class="cls-area">
-                        <label>Размер</label>
-                        <select>
-                          <option>46</option>
-                          <option>48</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="fll">
-                      <div class="cls-area">
-                        <label>Рост</label>
-                        <select>
-                          <option>176</option>
-                          <option>178</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  
-                  <div class="col-md-4">
-                   
-                <button class="button n-shop-button">Купить</button>
-           
-                  </div>
-
-                </div>
-              </div>
-
-            </div>
-
-          
-          </div>
-        </div>
-      </div>
-
-
-<div class="col-md-4 col-sm-6">
-        <div class="rds-a">
-
-          <div class="nbrs">
-            <div class="brds"><a class="wh-list" href="#"></a>
-              <div class="hit-s">Hit</div>
-              <a href="#">
-                <img src="img/brds.png" alt=""></a>
-            </div>
-            
-            
-              <div class="clearfix">
-        
-          <div class="slider multiple-colors">
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>DPM68</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Multicam</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-          </div>
-
-        </div>
-
-
-
-            <div class="prs-area">
-              <div class="flsw">
-                <a href="#">
-                  Футболка для ношения
-под бронежилет
-                </a>
-              </div>
-              
-              <div class="price-sh">
-                2300 руб.
-                <span>2600 руб.</span>
-              </div>
-
-              <div class="hide-area-st">
-              
-                <div class="cvs-k row">
-                  
-                  <div class="col-md-4">
-                    <div class="fll">
-                      <div class="cls-area">
-                        <label>Размер</label>
-                        <select>
-                          <option>46</option>
-                          <option>48</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="fll">
-                      <div class="cls-area">
-                        <label>Рост</label>
-                        <select>
-                          <option>176</option>
-                          <option>178</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  
-                  <div class="col-md-4">
-                   
-                <button class="button n-shop-button">Купить</button>
-           
-                  </div>
-
-                </div>
-              </div>
-
-            </div>
-
-          
-          </div>
-        </div>
-      </div>
-
-
-<div class="col-md-4 col-sm-6">
-        <div class="rds-a">
-
-          <div class="nbrs">
-            <div class="brds"><a class="wh-list" href="#"></a>
-              <div class="hit-s">Hit</div>
-              <a href="#">
-                <img src="img/brds.png" alt=""></a>
-            </div>
-            
-            
-              <div class="clearfix">
-        
-          <div class="slider multiple-colors">
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>DPM68</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Multicam</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-          </div>
-
-        </div>
-
-
-
-            <div class="prs-area">
-              <div class="flsw">
-                <a href="#">
-                  Футболка для ношения
-под бронежилет
-                </a>
-              </div>
-              
-              <div class="price-sh">
-                2300 руб.
-                <span>2600 руб.</span>
-              </div>
-
-              <div class="hide-area-st">
-              
-                <div class="cvs-k row">
-                  
-                  <div class="col-md-4">
-                    <div class="fll">
-                      <div class="cls-area">
-                        <label>Размер</label>
-                        <select>
-                          <option>46</option>
-                          <option>48</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="fll">
-                      <div class="cls-area">
-                        <label>Рост</label>
-                        <select>
-                          <option>176</option>
-                          <option>178</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  
-                  <div class="col-md-4">
-                   
-                <button class="button n-shop-button">Купить</button>
-           
-                  </div>
-
-                </div>
-              </div>
-
-            </div>
-
-          
-          </div>
-        </div>
-      </div>
-
-
-
-<div class="col-md-4 col-sm-6">
-        <div class="rds-a">
-
-          <div class="nbrs">
-            <div class="brds"><a class="wh-list" href="#"></a>
-              <div class="hit-s">Hit</div>
-              <a href="#">
-                <img src="img/brds.png" alt=""></a>
-            </div>
-            
-            
-              <div class="clearfix">
-        
-          <div class="slider multiple-colors">
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>DPM68</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Multicam</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-          </div>
-
-        </div>
-
-
-
-            <div class="prs-area">
-              <div class="flsw">
-                <a href="#">
-                  Футболка для ношения
-под бронежилет
-                </a>
-              </div>
-              
-              <div class="price-sh">
-                2300 руб.
-                <span>2600 руб.</span>
-              </div>
-
-              <div class="hide-area-st">
-              
-                <div class="cvs-k row">
-                  
-                  <div class="col-md-4">
-                    <div class="fll">
-                      <div class="cls-area">
-                        <label>Размер</label>
-                        <select>
-                          <option>46</option>
-                          <option>48</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="fll">
-                      <div class="cls-area">
-                        <label>Рост</label>
-                        <select>
-                          <option>176</option>
-                          <option>178</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  
-                  <div class="col-md-4">
-                   
-                <button class="button n-shop-button">Купить</button>
-           
-                  </div>
-
-                </div>
-              </div>
-
-            </div>
-
-          
-          </div>
-        </div>
-      </div>
-
-
-<div class="col-md-4 col-sm-6">
-        <div class="rds-a">
-
-          <div class="nbrs">
-            <div class="brds"><a class="wh-list" href="#"></a>
-              <div class="hit-s">Hit</div>
-              <a href="#">
-                <img src="img/brds.png" alt=""></a>
-            </div>
-            
-            
-              <div class="clearfix">
-        
-          <div class="slider multiple-colors">
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>DPM68</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Multicam</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-          </div>
-
-        </div>
-
-
-
-            <div class="prs-area">
-              <div class="flsw">
-                <a href="#">
-                  Футболка для ношения
-под бронежилет
-                </a>
-              </div>
-              
-              <div class="price-sh">
-                2300 руб.
-                <span>2600 руб.</span>
-              </div>
-
-              <div class="hide-area-st">
-              
-                <div class="cvs-k row">
-                  
-                  <div class="col-md-4">
-                    <div class="fll">
-                      <div class="cls-area">
-                        <label>Размер</label>
-                        <select>
-                          <option>46</option>
-                          <option>48</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="fll">
-                      <div class="cls-area">
-                        <label>Рост</label>
-                        <select>
-                          <option>176</option>
-                          <option>178</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  
-                  <div class="col-md-4">
-                   
-                <button class="button n-shop-button">Купить</button>
-           
-                  </div>
-
-                </div>
-              </div>
-
-            </div>
-
-          
-          </div>
-        </div>
-      </div>
-
-
-
-<div class="col-md-4 col-sm-6">
-        <div class="rds-a">
-
-          <div class="nbrs">
-            <div class="brds"><a class="wh-list" href="#"></a>
-              <div class="hit-s">Hit</div>
-              <a href="#">
-                <img src="img/brds.png" alt=""></a>
-            </div>
-            
-            
-              <div class="clearfix">
-        
-          <div class="slider multiple-colors">
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>DPM68</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Multicam</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-          </div>
-
-        </div>
-
-
-
-            <div class="prs-area">
-              <div class="flsw">
-                <a href="#">
-                  Футболка для ношения
-под бронежилет
-                </a>
-              </div>
-              
-              <div class="price-sh">
-                2300 руб.
-                <span>2600 руб.</span>
-              </div>
-
-              <div class="hide-area-st">
-              
-                <div class="cvs-k row">
-                  
-                  <div class="col-md-4">
-                    <div class="fll">
-                      <div class="cls-area">
-                        <label>Размер</label>
-                        <select>
-                          <option>46</option>
-                          <option>48</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="fll">
-                      <div class="cls-area">
-                        <label>Рост</label>
-                        <select>
-                          <option>176</option>
-                          <option>178</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  
-                  <div class="col-md-4">
-                   
-                <button class="button n-shop-button">Купить</button>
-           
-                  </div>
-
-                </div>
-              </div>
-
-            </div>
-
-          
-          </div>
-        </div>
-      </div>
-
-
-
-<div class="col-md-4 col-sm-6">
-        <div class="rds-a">
-
-          <div class="nbrs">
-            <div class="brds"><a class="wh-list" href="#"></a>
-              <div class="hit-s">Hit</div>
-              <a href="#">
-                <img src="img/brds.png" alt=""></a>
-            </div>
-            
-            
-              <div class="clearfix">
-        
-          <div class="slider multiple-colors">
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>DPM68</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Multicam</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-          </div>
-
-        </div>
-
-
-
-            <div class="prs-area">
-              <div class="flsw">
-                <a href="#">
-                  Футболка для ношения
-под бронежилет
-                </a>
-              </div>
-              
-              <div class="price-sh">
-                2300 руб.
-                <span>2600 руб.</span>
-              </div>
-
-              <div class="hide-area-st">
-              
-                <div class="cvs-k row">
-                  
-                  <div class="col-md-4">
-                    <div class="fll">
-                      <div class="cls-area">
-                        <label>Размер</label>
-                        <select>
-                          <option>46</option>
-                          <option>48</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="fll">
-                      <div class="cls-area">
-                        <label>Рост</label>
-                        <select>
-                          <option>176</option>
-                          <option>178</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  
-                  <div class="col-md-4">
-                   
-                <button class="button n-shop-button">Купить</button>
-           
-                  </div>
-
-                </div>
-              </div>
-
-            </div>
-
-          
-          </div>
-        </div>
-      </div>
-
-
-
-<div class="col-md-4 col-sm-6">
-        <div class="rds-a">
-
-          <div class="nbrs">
-            <div class="brds"><a class="wh-list" href="#"></a>
-              <div class="hit-s">Hit</div>
-              <a href="#">
-                <img src="img/brds.png" alt=""></a>
-            </div>
-            
-            
-              <div class="clearfix">
-        
-          <div class="slider multiple-colors">
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>DPM68</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Multicam</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-          </div>
-
-        </div>
-
-
-
-            <div class="prs-area">
-              <div class="flsw">
-                <a href="#">
-                  Футболка для ношения
-под бронежилет
-                </a>
-              </div>
-              
-              <div class="price-sh">
-                2300 руб.
-                <span>2600 руб.</span>
-              </div>
-
-              <div class="hide-area-st">
-              
-                <div class="cvs-k row">
-                  
-                  <div class="col-md-4">
-                    <div class="fll">
-                      <div class="cls-area">
-                        <label>Размер</label>
-                        <select>
-                          <option>46</option>
-                          <option>48</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="fll">
-                      <div class="cls-area">
-                        <label>Рост</label>
-                        <select>
-                          <option>176</option>
-                          <option>178</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  
-                  <div class="col-md-4">
-                   
-                <button class="button n-shop-button">Купить</button>
-           
-                  </div>
-
-                </div>
-              </div>
-
-            </div>
-
-          
-          </div>
-        </div>
-      </div>
-
-<div class="col-md-4 col-sm-6">
-        <div class="rds-a">
-
-          <div class="nbrs">
-            <div class="brds"><a class="wh-list" href="#"></a>
-              <div class="hit-s">Hit</div>
-              <a href="#">
-                <img src="img/brds.png" alt=""></a>
-            </div>
-            
-            
-              <div class="clearfix">
-        
-          <div class="slider multiple-colors">
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>DPM68</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Multicam</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-            <div>
-              <div class="str-im">
-                <img src="img/clfs.png" alt="">
-                <p>Flectar-D</p>
-                </div>
-            </div>
-          </div>
-
-        </div>
-
-
-
-            <div class="prs-area">
-              <div class="flsw">
-                <a href="#">
-                  Футболка для ношения
-под бронежилет
-                </a>
-              </div>
-              
-              <div class="price-sh">
-                2300 руб.
-                <span>2600 руб.</span>
-              </div>
-
-              <div class="hide-area-st">
-              
-                <div class="cvs-k row">
-                  
-                  <div class="col-md-4">
-                    <div class="fll">
-                      <div class="cls-area">
-                        <label>Размер</label>
-                        <select>
-                          <option>46</option>
-                          <option>48</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="fll">
-                      <div class="cls-area">
-                        <label>Рост</label>
-                        <select>
-                          <option>176</option>
-                          <option>178</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  
-                  <div class="col-md-4">
-                   
-                <button class="button n-shop-button">Купить</button>
-           
-                  </div>
-
-                </div>
-              </div>
-
-            </div>
-
-          
-          </div>
-        </div>
-      </div>
-
-     
-
     </div>
-
-  </div>
-  <div class="tab-pane" id="2a">Вкладка 2</div>
-  <div class="tab-pane" id="3a">Вкладка 3</div>
-  <div class="tab-pane" id="4a">Вкладка 4</div>
-  <div class="tab-pane" id="5a">Вкладка 5</div>
-  <div class="tab-pane" id="6a">Вкладка 6</div>
-  <div class="tab-pane" id="7a">Вкладка 7</div>
-  <div class="tab-pane" id="8a">Вкладка 8</div>
-  <div class="tab-pane" id="9a">Вкладка 9</div>
-
-  <div class="nav-str">
-    <nav class="fll">
-      <ul class="pagination">
-        <li>
-          <a href="#" aria-label="Previous">
-            <span aria-hidden="true">&laquo;</span>
-          </a>
-        </li>
-        <li>
-          <a href="#">1</a>
-        </li>
-        <li>
-          <a href="#">2</a>
-        </li>
-        <li>
-          <a href="#">3</a>
-        </li>
-        <li>
-          <a href="#">4</a>
-        </li>
-        <li>
-          <a href="#">5</a>
-        </li>
-        <li>
-          <a href="#">...</a>
-        </li>
-        <li>
-          <a href="#">15</a>
-        </li>
-        <li>
-          <a href="#" aria-label="Next">
-            <span aria-hidden="true">&raquo;</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
-
-    <div class="flr cdsw">
-      <label>Показывать на одной стр.</label>
-      <select>
-        <option>18</option>
-        <option>50</option>
-      </select>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-4">
+                    <div class="area-f-l">
+                        <p>© 2016 Экипировочный центр СоюзСпецОснащение</p>
+                        <div class="socials fll">
+                            <a href="#" class="soc1"></a>
+                            <a href="#" class="soc2"></a>
+                            <a href="#" class="soc3"></a>
+                            <a href="#" class="soc4"></a>
+                            <a href="#" class="soc5"></a>
+                        </div>
+                        <div class="clearfix"></div>
+                        <h5>
+                            Разработка сайта -
+                            <a href="#">Белый кот</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="memu-foot">
+                        <ul>
+                            <li class="fst-li">О компании</li>
+                            <li>
+                                <a href="">О нас</a>
+                            </li>
+                            <li>
+                                <a href="">Разработка продукции</a>
+                            </li>
+                            <li>
+                                <a href="">Сотрудничество</a>
+                            </li>
+                            <li>
+                                <a href="">Вакансии</a>
+                            </li>
+                            <li>
+                                <a href="">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="memu-foot">
+                        <ul>
+                            <li class="fst-li">Информация</li>
+                            <li>
+                                <a href="">Как сделать заказ</a>
+                            </li>
+                            <li>
+                                <a href="">Оплата и доставка</a>
+                            </li>
+                            <li>
+                                <a href="">Гарантия и возврат</a>
+                            </li>
+                            <li>
+                                <a href="">Отзывы</a>
+                            </li>
+                            <li>
+                                <a href="">Новости</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4 dfe-no">
+                    <div class="memu-foot">
+                        <ul>
+                            <li class="fst-li">Полезное</li>
+                            <li>
+                                <a href="">Расцветки</a>
+                            </li>
+                            <li>
+                                <a href="">Размеры</a>
+                            </li>
+                            <li>
+                                <a href="">Уход за изделиями</a>
+                            </li>
+                            <li>
+                                <a href="">Материалы</a>
+                            </li>
+                            <li>
+                                <a href="">Статьи</a>
+                            </li>
+                            <li>
+                                <a href="">Форум</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="clearfix no-fess"></div>
+                <div class="col-md-3 col-sm-4">
+                    <div class="area-f-r">
+                        <div class="clearfix"></div>
+                        <a class="enter" href="#" data-toggle="modal" data-target="#autoriz">Вход и регитстрация</a>
+                        <div class="clearfix"></div>
+                        <a class="enter2" href="#">Где купить?</a>
+                        <p class="prins">Принимаем к оплате</p>
+                        <img src="img/ssw.png" class="img-responsive" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- инициализация скриптов -->
+    <script src="js/scripts.js"></script>
+    <!-- инициализация скриптов -->
+    <!-- modals -->
+    <div class="modal fade" id="pricel" aria-hidden="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3>Заказать обратный звонок</h3>
+                    <form action="">
+                        <div class="sm-fr clearfix">
+                            <label for="">Имя</label>
+                            <input type="text"></div>
+                        <div class="sm-fr clearfix">
+                            <label for="">Телефон</label>
+                            <input type="tel" name="phone" /></div>
+                        <div class="sm-fr clearfix">
+                            <label for="">Комментарий</label>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Например: Удобное время для звонка"></textarea>
+                        </div>
+                        <div class="sm-fr clearfix">
+                            <button class="button">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
-
-<div class="rty-p">
-  <p>
-    Мужская одежда из ассортимента интернет-магазина «Спецоснащение» - это прекрасный подарок уверенному, следящему за модой современному мужчине. В ней сплетаются высокое качество, грамотный крой, стильный дизайн, продуманные фасоны и удобство. Натуральные ткани отлично впитывают влагу, а синтетические материалы хорошо садятся по фигуре, подчеркивая мускулатуру и другие ее достоинства, мягко маскируя недостатки.
-  </p>
-  <p>
-    Модели представленных коллекций отлично сочетаются друг с другом, создавая законченный образ модного молодого человека. Большой выбор расцветок, узоров и рисунков поможет подобрать гардероб и для тех, кто любит взрывные цвета и подчеркивает свою неординарность, и для тех, кто предпочитает более спокойные и традиционные вещи.
-  </p>
-  <p> <strong>Мужская одежда в интернет-магазине "Спецоснащение"</strong>
-  </p>
-  <p>
-    Стремясь порадовать покупателей лучшими товарами по доступным ценам, мы подобрали большой выбор одежды для мужчин любого возраста от популярных и востребованных брендов. Вы цените классический стиль или предпочитаете спортивные вещи? Уверены, вы найдете, что купить среди ассортимента нашего магазина! Быстрая доставка добавит удобства мужчинам, которые не любят тратить время на беготню по магазинам и точно знают, что им требуется.
-  </p>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-</div>
-
-<footer>
-
-<div class="container">
-<div class="row">
-<div class="col-md-3 col-sm-4">
-<div class="area-f-l">
-  <p>© 2016 Экипировочный центр СоюзСпецОснащение</p>
-  <div class="socials fll">
-    <a href="#" class="soc1"></a>
-    <a href="#" class="soc2"></a>
-    <a href="#" class="soc3"></a>
-    <a href="#" class="soc4"></a>
-    <a href="#" class="soc5"></a>
-  </div>
-  <div class="clearfix"></div>
-  <h5>
-    Разработка сайта -
-    <a href="#">Белый кот</a>
-  </h5>
-</div>
-</div>
-
-<div class="col-md-2 col-sm-4">
-<div class="memu-foot">
-  <ul>
-    <li class="fst-li">О компании</li>
-    <li>
-      <a href="">О нас</a>
-    </li>
-    <li>
-      <a href="">Разработка продукции</a>
-    </li>
-    <li>
-      <a href="">Сотрудничество</a>
-    </li>
-    <li>
-      <a href="">Вакансии</a>
-    </li>
-    <li>
-      <a href="">Контакты</a>
-    </li>
-  </ul>
-</div>
-</div>
-
-<div class="col-md-2 col-sm-4">
-<div class="memu-foot">
-  <ul>
-    <li class="fst-li">Информация</li>
-    <li>
-      <a href="">Как сделать заказ</a>
-    </li>
-    <li>
-      <a href="">Оплата и доставка</a>
-    </li>
-    <li>
-      <a href="">Гарантия и возврат</a>
-    </li>
-    <li>
-      <a href="">Отзывы</a>
-    </li>
-    <li>
-      <a href="">Новости</a>
-    </li>
-  </ul>
-</div>
-</div>
-
-<div class="col-md-2 col-sm-4 dfe-no">
-<div class="memu-foot">
-  <ul>
-    <li class="fst-li">Полезное</li>
-    <li>
-      <a href="">Расцветки</a>
-    </li>
-    <li>
-      <a href="">Размеры</a>
-    </li>
-    <li>
-      <a href="">Уход за изделиями</a>
-    </li>
-    <li>
-      <a href="">Материалы</a>
-    </li>
-    <li>
-      <a href="">Статьи</a>
-    </li>
-    <li>
-      <a href="">Форум</a>
-    </li>
-  </ul>
-</div>
-</div>
-
-<div class="clearfix no-fess"></div>
-
-<div class="col-md-3 col-sm-4">
-<div class="area-f-r">
-  <div class="clearfix"></div>
-  <a class="enter" href="#" data-toggle="modal" data-target="#autoriz">Вход и регитстрация</a>
-  <div class="clearfix"></div>
-  <a class="enter2" href="#">Где купить?</a>
-  <p class="prins">Принимаем к оплате</p>
-  <img src="img/ssw.png" class="img-responsive" alt=""></div>
-</div>
-</div>
-</div>
-</footer>
-
-<!-- инициализация скриптов -->
-
-<script src="js/scripts.js"></script>
-
-<!-- инициализация скриптов -->
-
-<!-- modals -->
-
-<div class="modal fade" id="pricel" aria-hidden="false">
-<div class="modal-dialog">
-<div class="modal-content">
-
-<div class="modal-body">
-<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-<h3>Заказать обратный звонок</h3>
-<form action="">
-  <div class="sm-fr clearfix">
-    <label for="">Имя</label>
-    <input type="text"></div>
-  <div class="sm-fr clearfix">
-    <label for="">Телефон</label>
-   <input type="tel" name="phone"/></div>
-  <div class="sm-fr clearfix">
-    <label for="">Комментарий</label>
-    <textarea name="" id="" cols="30" rows="10" placeholder="Например: Удобное время для звонка"></textarea>
-  </div>
-  <div class="sm-fr clearfix">
-    <button class="button">Отправить</button>
-  </div>
-</form>
-</div>
-</div>
-</div>
-</div>
-<!-- modals -->
-
-<!-- modals -->
-
-<div class="modal fade" id="autoriz" aria-hidden="false">
-<div class="modal-dialog">
-<div class="modal-content">
-<div class="modal-body">
-<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-<h3>Авторизация</h3>
-<form action="">
-  <div class="sm-fr clearfix">
-    <label for="">Электронная почта</label>
-    <input type="text"></div>
-  <div class="sm-fr clearfix">
-    <label for="">Пароль</label>
-    <input type="password"></div>
-
-  <div class="sm-fr clearfix">
-    <button class="button">Войти</button>
-    <a class="reg-hr" href="#" data-dismiss="modal" data-toggle="modal" data-target="#reg">Регистрация</a>
-  </div>
-</form>
-</div>
-<div class="soc-blk">
-<div class="fll entrs">Войти через соцсети</div>
-<div class="socials fll">
-  <a href="#" class="soc1"></a>
-  <a href="#" class="soc2"></a>
-  <a href="#" class="soc3"></a>
-  <a href="#" class="soc4"></a>
-  <a href="#" class="soc5"></a>
-  <a href="#" class="soc6"></a>
-</div>
-</div>
-</div>
-
-</div>
-</div>
-<!-- modals -->
-
-<!-- modals -->
-
-<div class="modal fade" id="reg" aria-hidden="false">
-<div class="modal-dialog">
-<div class="modal-content">
-<div class="modal-body">
-<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-<h3>Регистрация</h3>
-<form action="">
-  <div class="sm-fr clearfix">
-    <label for="">Электронная почта</label>
-    <input type="text"></div>
-  <div class="sm-fr clearfix">
-    <label for="">Телефон</label>
-    <input type="tel" name="phone"/></div>
-
-  <div class="sm-fr clearfix">
-    <label for="">Имя и фамилия</label>
-    <input type="text"></div>
-
-  <div class="sm-fr clearfix">
-    <button class="button reg-btn">Зарегистрироваться</button>
-    <a class="reg-hr" href="#"  data-dismiss="modal" data-toggle="modal" data-target="#autoriz">Уже зарегистрированы?</a>
-  </div>
-</form>
-</div>
-<div class="soc-blk">
-<div class="fll entrs">Войти через соцсети</div>
-<div class="socials fll">
-  <a href="#" class="soc1"></a>
-  <a href="#" class="soc2"></a>
-  <a href="#" class="soc3"></a>
-  <a href="#" class="soc4"></a>
-  <a href="#" class="soc5"></a>
-  <a href="#" class="soc6"></a>
-</div>
-</div>
-</div>
-
-</div>
-</div>
-<!-- modals -->
-
-<!-- modals -->
-
-<div class="modal fade" id="sert" aria-hidden="false">
-<div class="modal-dialog sert-modal">
-<div class="modal-content">
-
-<div class="modal-body">
-<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-<img src="img/sert.jpg" alt=""></div>
-</div>
-</div>
-</div>
-<!-- modals -->
+    <!-- modals -->
+    <!-- modals -->
+    <div class="modal fade" id="autoriz" aria-hidden="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3>Авторизация</h3>
+                    <form action="">
+                        <div class="sm-fr clearfix">
+                            <label for="">Электронная почта</label>
+                            <input type="text"></div>
+                        <div class="sm-fr clearfix">
+                            <label for="">Пароль</label>
+                            <input type="password"></div>
+                        <div class="sm-fr clearfix">
+                            <button class="button">Войти</button>
+                            <a class="reg-hr" href="#" data-dismiss="modal" data-toggle="modal" data-target="#reg">Регистрация</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="soc-blk">
+                    <div class="fll entrs">Войти через соцсети</div>
+                    <div class="socials fll">
+                        <a href="#" class="soc1"></a>
+                        <a href="#" class="soc2"></a>
+                        <a href="#" class="soc3"></a>
+                        <a href="#" class="soc4"></a>
+                        <a href="#" class="soc5"></a>
+                        <a href="#" class="soc6"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modals -->
+    <!-- modals -->
+    <div class="modal fade" id="reg" aria-hidden="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3>Регистрация</h3>
+                    <form action="">
+                        <div class="sm-fr clearfix">
+                            <label for="">Электронная почта</label>
+                            <input type="text"></div>
+                        <div class="sm-fr clearfix">
+                            <label for="">Телефон</label>
+                            <input type="tel" name="phone" /></div>
+                        <div class="sm-fr clearfix">
+                            <label for="">Имя и фамилия</label>
+                            <input type="text"></div>
+                        <div class="sm-fr clearfix">
+                            <button class="button reg-btn">Зарегистрироваться</button>
+                            <a class="reg-hr" href="#" data-dismiss="modal" data-toggle="modal" data-target="#autoriz">Уже зарегистрированы?</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="soc-blk">
+                    <div class="fll entrs">Войти через соцсети</div>
+                    <div class="socials fll">
+                        <a href="#" class="soc1"></a>
+                        <a href="#" class="soc2"></a>
+                        <a href="#" class="soc3"></a>
+                        <a href="#" class="soc4"></a>
+                        <a href="#" class="soc5"></a>
+                        <a href="#" class="soc6"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modals -->
+    <!-- modals -->
+    <div class="modal fade" id="sert" aria-hidden="false">
+        <div class="modal-dialog sert-modal">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <img src="img/sert.jpg" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <!-- modals -->
 </body>
+
 </html>
